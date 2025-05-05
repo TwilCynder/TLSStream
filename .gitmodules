@@ -1,0 +1,4 @@
+[submodule "tournamentstreamhelpertls"]
+        path = tournamentstreamhelpertls
+        url = https://github.com/TwilCynder/TournamentStreamHelperTLS
+        branch = main
