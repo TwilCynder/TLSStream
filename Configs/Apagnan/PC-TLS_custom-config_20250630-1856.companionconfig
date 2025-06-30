@@ -1,0 +1,5485 @@
+{
+	"version": 4,
+	"type": "full",
+	"pages": {
+		"1": {
+			"name": "POTI STREAM DECK",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Game",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16253699,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "unK1RZ95xxkBxIs0zr_uD",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "TLS In Game",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "8FdKdt3ObEBQ0l8iK4OSA",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Stinger TLS White"
+											},
+											"delay": 50
+										},
+										{
+											"id": "SDxdZG-yYuSuyWoYHrHwM",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "POPOFF",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "XODyd0EeuH3yKKhXnsgrv",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "VSScreen Cam",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "A6slxhVZ3GFs4U7vPK2sI",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Coupure"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "paTB4z3KD4I0VzJgFLTOb",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Premier replay",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 789259,
+							"bgcolor": 15927283,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "qzCXgGWJSTjgZO7jVz-YO",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "shift",
+												"key2": "!"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Replays",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "V05RFiGdkcGdBzKKqN0Bf",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Replay (Casters Joueurs)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "Gw1sJWLuf0E3O7emM2YcE",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Stinger TLS Replay"
+											},
+											"delay": 50
+										},
+										{
+											"id": "RPWh2GfZvHzOXRDaXfLJh",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "pageup"
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Replays suivants",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 789259,
+							"bgcolor": 16744703,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "8qpi7jCdu4ns8MISsR2MT",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "shift",
+												"key2": ":"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"2": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Score + J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "-vnyuqZLNLKGCB0eyvDx-",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team1-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Swap Joueurs",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 13369548,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "W2A15PNpd4XhJMv2GhcSS",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-swap-teams",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Score + J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "rreJtK0OOoNhlGBTl0WOk",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team2-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Score - J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "jSNErX5phIIg93cpKIzjr",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team1-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "pagedown"
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Score - J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "c2NtSqGOYxoWMu0CV4-ti",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team2-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"3": {
+			"name": "TABLETTE CASTERS",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Score + J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "GbJXgEoRZsgxAnljfTbgb",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://127.0.0.1:5000/scoreboard1-team1-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Score + J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "zmhECVWTJr8TI7kmUPT8W",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://127.0.0.1:5000/scoreboard1-team2-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Game",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 1184017,
+							"bgcolor": 1766147,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "0UxMJ90zGMuvcUWwy8MF9",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "TLS In Game",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "v9hixMTlDLgvSlVw-d8Aq",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Stinger TLS Black"
+											},
+											"delay": 50
+										},
+										{
+											"id": "bOiynJGyk8JAEf8Z8atAx",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Popoff",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "wYNmh6nZc-NNs1mfXtK6q",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "VSScreen Cam",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "0M4JsTmrPNpppUulW3bLa",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Coupure"
+											},
+											"delay": 0
+										},
+										{
+											"id": "xttW9NlGYimvKxlWv1JTC",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "VS Screen",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "f48tPrTSpV_9-iuZMqPWL",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "VSScreen Cam",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "_T3zion0QpczbhWPVAp-Z",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 0
+										},
+										{
+											"id": "D9WhK250DlJb4Avg2Zyz2",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "VS Screen StageStrike",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "hkXNkGjjn6qoVNSa9hnCQ",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "VSScreen Cams StageStrike",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "sa-c1hYerHLwHzOQt5HFm",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 0
+										},
+										{
+											"id": "2T5wbZyGknr29Y9QNh3Ct",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Cam Salle",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "_lB3uDiL3b3Qb10z8KuH1",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Cam Salle",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "_Qtmz1w7b0o7E-TdLIAkr",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50
+										},
+										{
+											"id": "Vi98VdDAfCk-MSm1mzWt5",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Casters",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "o5864vXuwNYI_8vzYFaQI",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Casters + Scoreboard",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "ibUAZKPxfyhj1iPTIQ0q3",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50
+										},
+										{
+											"id": "QRimAtADqkbZWt_NjiNHz",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Score - J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "quaLpOSMLRLWdAOLceHkq",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://127.0.0.1:5000/scoreboard1-team1-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Score - J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ELzgmzqtH6y5_O_eeoLvW",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://127.0.0.1:5000/scoreboard1-team2-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Trio Casters",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "I0Dmh66oLqKp-lY4Wo1fy",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Casters (Joueurs Game)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "vP51zDsKQENr-Md94hs7m",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "n9z7T7L8qb_LCejTN0a1-",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Trio Replays",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "EDfA0292NoHVuVSN59j-E",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Replay (Casters Joueurs)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "J2oP8bg2eMxii-CcC49TS",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Stinger TLS Replay"
+											},
+											"delay": 50
+										},
+										{
+											"id": "B_hl5si8DgX3Fu-cYQAMu",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 120
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Trio Joueurs",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "rQ9_uw0WklxVojKw-Nylw",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Joueurs (Casters Game)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "Il7fJWGqzGI2Sj_dPVl9G",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "satq7jStfq-EK046IJnC5",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Trio Plan Large",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ncAAmtCFMy4dOF5Dor6qU",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Salle (Casters Game)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "zWP4Cp1O8ZHBTvCJgZb3R",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "ACUm_DrkV-Gxc73cMjIDa",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"2": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Swap Joueurs",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 13369548,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "deaUdb1ijBo-bFGZq1yTq",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://127.0.0.1:5000/scoreboard1-swap-teams",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Duo Joueurs Casters",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "PZQlUtFMEcP6Gw-Py2UMP",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Duo Joueurs Casters",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "U48WD9btTTEI_sX2BBARo",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "XMfE-YknGlIwchSNY9Pe8",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Duo Casters Joueurs",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "YaEJ7C1acJUCxf_cu6glO",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Duo Casters Joueurs",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "6Bd1rFI28j5RZK7_XY-TS",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "lvLmNdMg4atCg9QdQOMi7",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"3": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Premier Replay",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 9605778,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "XUEgAPDQBg7rTAC4hbzVr",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "shift",
+												"key2": "!"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Replays Suivants",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 7237230,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "SmxoaMXJgd5-ia5r8pm6k",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "shift",
+												"key2": ":"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Run actuelle",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "00GsWzRprcbrGn4LAYGUT",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Last Sets",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "JmV1OZ9t9Gh6CMznve7wx",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move latéral droite"
+											},
+											"delay": 0
+										},
+										{
+											"id": "cKPYUhSfAOlzlIPyDR7pU",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Result History",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "g9sC8D53Acz7TcXcLIxdI",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Result History",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "HaayQpkighP1_UTyxtq9i",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move latéral droite"
+											},
+											"delay": 0
+										},
+										{
+											"id": "EMmnYaVqy4OkPf6nOwkyz",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Head 2 Head",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "uO04haucjKO4z7ZZnhjd2",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Result History",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "mQo1nKP4ckMJaW-Q128KZ",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move latéral droite"
+											},
+											"delay": 0
+										},
+										{
+											"id": "vncCmAs2DULlSAZIYISdz",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"4": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Clear DSK",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 0,
+							"bgcolor": 16777152,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "6s6-gvegfQeElqrlr-8uc",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "alt",
+												"key2": "c"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "DSK Stream Queue",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 0,
+							"bgcolor": 16776960,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "WqwYVgnSf8tmzjjzO61oP",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "alt",
+												"key2": "s"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "DSK Stage Strike",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 0,
+							"bgcolor": 16776960,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "T2nr7HAJkY5ozcDoxaPxs",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "alt",
+												"key2": "k"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"5": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "M",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"4": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Game",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "YneMjTK1jT42Ph-Hy_CsH",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "TLS In Game",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "iIeRZt-8ZuVzqLmewQEh-",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Stinger TLS White"
+											},
+											"delay": 50
+										},
+										{
+											"id": "eZBvTRZPij5p_RM_xPYJu",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Popoff",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "lKTfEercw40xOoflWlF-n",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "VSScreen Cam",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "mYvnjQiJYyQmeBWDX-M6G",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Coupure"
+											},
+											"delay": 0
+										},
+										{
+											"id": "nENXBb0C7zxA0R_AS4rXn",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Trio Replays",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "mpXMl1UD2TFIKgIQ8HWS7",
+											"action": "previewInput",
+											"instance": "EBY3LALmSuPGnrgTFlXdv",
+											"options": {
+												"input": "2",
+												"mix": 0
+											},
+											"delay": 0,
+											"upgradeIndex": -1
+										},
+										{
+											"id": "QVYfz3W6EObBh1aRhNTc1",
+											"action": "previewInput",
+											"instance": "yIriV5Pn3FRVsboYz6KUp",
+											"options": {
+												"input": "18",
+												"mix": 0
+											},
+											"delay": 0,
+											"upgradeIndex": -1
+										},
+										{
+											"id": "m_N0KkxP4UAqqj8oboNvU",
+											"action": "transition",
+											"instance": "yIriV5Pn3FRVsboYz6KUp",
+											"options": {
+												"functionID": "Stinger2"
+											},
+											"delay": 100,
+											"upgradeIndex": -1
+										},
+										{
+											"id": "_OOScjpCrT28JrKYBAF_B",
+											"action": "replayPlaySelectedEventToOutput",
+											"instance": "EBY3LALmSuPGnrgTFlXdv",
+											"options": {
+												"channel": "Current"
+											},
+											"delay": 1100,
+											"upgradeIndex": -1
+										},
+										{
+											"id": "G9rCi-FxHeaUhBDEM246f",
+											"action": "trigger_enabled",
+											"instance": "internal",
+											"options": {
+												"trigger_id": "trigger:P0c-FQ0pP4ku9Eus3yBWr",
+												"enable": "true"
+											},
+											"delay": 1200
+										},
+										{
+											"id": "iDt9lWgECCLToScf0sxIW",
+											"action": "previewInput",
+											"instance": "yIriV5Pn3FRVsboYz6KUp",
+											"options": {
+												"input": "8",
+												"mix": 0
+											},
+											"delay": 1300,
+											"upgradeIndex": -1
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Score + J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Bf3uttQub7vVAoiaqJWaf",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team1-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Score + J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ZDP2yvUZIVmXFLMtQLFzy",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team2-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Casters",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "-fNetWkXAXXLZAqjbxbXF",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Casters (Sans Scoreboard)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "bcXWq5a-PcTHyjq901fTk",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50
+										},
+										{
+											"id": "uFFU9FWrJtTRtzjz9V1Lp",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Trio Casters",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "R24UKtjZCm87uBE0yKDa8",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Casters (Game Joueurs)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "yunYkH2GvaA0E44OWS1ZI",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50,
+											"disabled": false
+										},
+										{
+											"id": "WpSChCD-9WFN2JJifyPry",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Trio Joueurs",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "72alDAzJvDA6Ru4x5V4aj",
+											"action": "preview_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "Trio Joueurs (Casters Game)",
+												"customSceneName": ""
+											},
+											"delay": 0
+										},
+										{
+											"id": "56ugNop53Pveh5EAFiDX0",
+											"action": "set_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"transitions": "Move"
+											},
+											"delay": 50
+										},
+										{
+											"id": "z_so0-KHN4_2tvRS5YEVJ",
+											"action": "do_transition",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {},
+											"delay": 100
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Score - J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "qyrM7WH4E1ikP9ykeu1qp",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team1-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Score - J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "jvhBOcOR-tN4zF_uDhK8o",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team2-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"2": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Premier Replay",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "NB63mginYOfqJVyKgfCvK",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "shift",
+												"key2": "!"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Replays Suivants",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "f_Go7hXWXgQ-oshsDCdES",
+											"action": "combination",
+											"instance": "_ITe1nqwa_5JJHG9NTCrU",
+											"options": {
+												"key1": "shift",
+												"key2": ":"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"5": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Score + J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "6wy5nH1fgSGm4Hj9HucCy",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team1-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Score + J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "RMW3evatnZG10XQlg7MlR",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team2-scoreup",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "GAME ---------",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "CyE4IG9515BbnHVh2JCBi",
+											"action": "set_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "TLS  In Game MW4",
+												"customSceneName": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Score - J1",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "O2JPDy8I2N_v0IfwcSPIl",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team1-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Score - J2",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "CtcuoOh84yw5nyrHKm5nv",
+											"action": "get",
+											"instance": "urIFIApj6e6-nJywkBu3V",
+											"options": {
+												"url": "http://192.168.1.101:5000/scoreboard1-team2-scoredown",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Duo Cast - Joueurs",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "CYfktPL50nS7rLqxAyWgj",
+											"action": "set_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "MW4 Duo Casters Joueurs",
+												"customSceneName": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Casters -------",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "-RIKPriVXv_nveq2kCr-9",
+											"action": "set_scene",
+											"instance": "8VGSAvUY2eXSDBfnNHF4p",
+											"options": {
+												"scene": "MW4 Casters",
+												"customSceneName": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"6": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"7": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"8": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"9": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"10": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"11": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"12": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"13": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"14": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"15": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"16": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"17": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"18": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"19": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"20": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"21": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"22": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"23": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"24": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"25": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"26": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"27": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"28": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"29": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"30": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"31": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"32": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"33": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"34": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"35": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"36": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"37": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"38": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"39": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"40": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"41": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"42": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"43": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"44": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"45": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"46": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"47": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"48": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"49": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"50": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"51": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"52": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"53": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"54": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"55": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"56": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"57": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"58": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"59": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"60": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"61": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"62": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"63": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"64": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"65": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"66": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"67": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"68": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"69": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"70": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"71": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"72": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"73": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"74": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"75": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"76": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"77": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"78": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"79": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"80": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"81": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"82": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"83": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"84": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"85": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"86": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"87": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"88": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"89": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"90": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"91": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"92": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"93": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"94": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"95": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"96": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"97": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"98": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		},
+		"99": {
+			"name": "PAGE",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagenum"
+					}
+				},
+				"2": {
+					"0": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 7,
+				"minRow": 0,
+				"maxRow": 8
+			}
+		}
+	},
+	"triggers": {
+		"P0c-FQ0pP4ku9Eus3yBWr": {
+			"type": "trigger",
+			"options": {
+				"name": "Gestion_Replay",
+				"enabled": true,
+				"sortOrder": 0,
+				"relativeDelay": false
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "BcLi_hh72DlLaHo4z4Irv",
+						"action": "transition",
+						"instance": "yIriV5Pn3FRVsboYz6KUp",
+						"options": {
+							"functionID": "Stinger1"
+						},
+						"delay": 0,
+						"upgradeIndex": -1
+					},
+					{
+						"id": "mlPX352YoiRbKsJfnslY4",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:P0c-FQ0pP4ku9Eus3yBWr",
+							"enable": "false"
+						},
+						"delay": 0
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "qNwZaU_4VSBlZMCvpGYjt",
+					"type": "variable_value",
+					"instance_id": "internal",
+					"options": {
+						"variable": "vmix_replay:input_replay_playing",
+						"op": "eq",
+						"value": "false"
+					},
+					"style": {},
+					"isInverted": false
+				}
+			],
+			"events": [
+				{
+					"id": "LYaWbb2cCmdvXejxndRF1",
+					"type": "condition_true",
+					"enabled": true,
+					"options": {}
+				}
+			]
+		}
+	},
+	"custom_variables": {},
+	"instances": {
+		"8VGSAvUY2eXSDBfnNHF4p": {
+			"instance_type": "obs-studio",
+			"sortOrder": 1,
+			"label": "obs",
+			"isFirstInit": false,
+			"config": {
+				"port": 4455,
+				"host": "localhost"
+			},
+			"lastUpgradeIndex": 3,
+			"enabled": true
+		},
+		"_ITe1nqwa_5JJHG9NTCrU": {
+			"instance_type": "vicreo-hotkey",
+			"sortOrder": 2,
+			"label": "VICREO-Listener",
+			"isFirstInit": false,
+			"config": {
+				"port": 10001,
+				"password": "",
+				"host": "127.0.0.1"
+			},
+			"lastUpgradeIndex": 0,
+			"enabled": true
+		},
+		"yIriV5Pn3FRVsboYz6KUp": {
+			"instance_type": "studiocoast-vmix",
+			"sortOrder": 3,
+			"label": "vmix",
+			"isFirstInit": false,
+			"config": {
+				"host": "127.0.0.1",
+				"tcpPort": 8099,
+				"connectionErrorLog": true,
+				"apiPollInterval": 250,
+				"volumeLinear": false,
+				"shiftDelimiter": "/",
+				"shiftBlinkPrvPrgm": true,
+				"shiftBlinkLayerRouting": true,
+				"variablesShowInputs": true,
+				"variablesShowInputNumbers": true,
+				"variablesShowInputGUID": false,
+				"variablesShowInputPosition": false,
+				"variablesShowInputLayerPosition": false,
+				"strictInputVariableTypes": false
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": false
+		},
+		"JfECwvcNPIRlynEmviEUL": {
+			"instance_type": "bmd-atem",
+			"sortOrder": 4,
+			"label": "atem",
+			"isFirstInit": false,
+			"config": {
+				"host": "192.168.1.50",
+				"modelID": 0,
+				"presets": 0,
+				"fadeFps": 10,
+				"autoModelID": 17,
+				"autoModelName": "Mini Extreme ISO"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": false
+		},
+		"sjTM_2CkYMLMFZzYzwtJs": {
+			"instance_type": "ptzoptics-visca",
+			"sortOrder": 5,
+			"label": "visca",
+			"isFirstInit": false,
+			"config": {
+				"port": 5678,
+				"host": "192.168.1.1010"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": false
+		},
+		"urIFIApj6e6-nJywkBu3V": {
+			"instance_type": "generic-http",
+			"sortOrder": 6,
+			"label": "http",
+			"isFirstInit": false,
+			"config": {
+				"prefix": "",
+				"rejectUnauthorized": true
+			},
+			"lastUpgradeIndex": 1,
+			"enabled": true
+		},
+		"EBY3LALmSuPGnrgTFlXdv": {
+			"instance_type": "studiocoast-vmix",
+			"sortOrder": 7,
+			"label": "vmix_replay",
+			"isFirstInit": false,
+			"config": {
+				"host": "192.168.1.76",
+				"tcpPort": 8099,
+				"connectionErrorLog": true,
+				"apiPollInterval": 250,
+				"volumeLinear": false,
+				"shiftDelimiter": "/",
+				"shiftBlinkPrvPrgm": true,
+				"shiftBlinkLayerRouting": true,
+				"variablesShowInputs": true,
+				"variablesShowInputNumbers": true,
+				"variablesShowInputGUID": false,
+				"variablesShowInputPosition": false,
+				"variablesShowInputLayerPosition": false,
+				"strictInputVariableTypes": false
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": false
+		}
+	},
+	"surfaces": {
+		"streamdeck:BL41L2B04149": {
+			"type": "Elgato Streamdeck Mini",
+			"integrationType": "elgato-streamdeck",
+			"gridSize": {
+				"columns": 3,
+				"rows": 2
+			},
+			"config": {
+				"brightness": 100,
+				"rotation": 0,
+				"never_lock": false,
+				"xOffset": 0,
+				"yOffset": 0,
+				"groupId": null
+			},
+			"groupConfig": {
+				"name": "Unnamed group",
+				"last_page": 2,
+				"startup_page": 1,
+				"use_last_page": true
+			},
+			"groupId": null
+		}
+	},
+	"surfaceGroups": {}
+}
