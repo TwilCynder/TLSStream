@@ -3,21 +3,50 @@
 ## Installation (au début du tournoi)
 
 ### Physique
+
+Pour trouver rapidement le matériel : tous les câbles sont dans la valise noire, tous les appareils / boites sont dans la valide grise.  
+Les câbles vidéo/audio et les autres dans des compartiments différents dans la valise. Les câbles HDMI ont des scratchs gris, les rallonges USB des scratchs verts
+
 Note : je pars du principe qu'on utilise la table de mixage, mais on peut aussi utiliser la carte son (scarlett 2i2), ça ne fait pas bcp de différence  
 
-- On commence par placer les 5 écrans (2 régie, 1 caster, 2 joueurs), et brancher leurs alim
-- On branche le HUB USB au PC
-- On branche
-  - sur le PC obligatoirement : carte capture, cam logitech
-  - sur le PC ou le HUB peu importe : la carte son, le casque régie, la souris, le clavier, la cam casters
-- On branche 6 HDMIs : deux entre les écrans régie et le PC, un entre la switch et le IN de la carte capture, un entre le OUT de la carte capture et le IN du splitter, deux entre les sorties du splitter HDMI et les écrans joueurs. 
-- On branche les casques à la carte son : il faut trouver le splitter jack dans le sac des câbles ou avec un casque caster, c'est un splitter normal mais avec des grosses prises jack
-  - Si on est sur la carte son (le boitier rouge), on branche le splitter dans la prise jack en bas à droite de la carte son. Puis, pour chaque casque, on branche son gros embout jack au splitter, et l'autre embout à la prise correspondante sur l'avant de la carte son.
-  - Si on est sur la table de mixage, les grosses prises des casques vont dans les prises tout en haut de la table, les 2 premières en partant de la gauche. Le splitter se branche dans la prise jack tout en bas à droite. 
-- On branche le cable ethernet de la box (sous la table des casters) au PC.
-- Pour le casque régie il est sans fil, dans sa boite il y a une petite clé USB à rbanche sur un port USB du PC ; il faut l'allumer avec le bouton à gauche ; il peut être bon de le mettre à charger (cable USB-C) avant le début du tournoi
-- On sort aussi l'ampli jack (le truc sur lequel les joueurs doivent brancher leurs casques) : on n'oublie pas son bloc chargeur, et on met le jack sur un des deux écrans. 
-- On place le PC portable qui va servir aux cams joueurs, on y branche les 2 cams joueur. On va ensuite sur Discord, dans le channel #régie-stream, threah "VDO Ninja", chercher dans les 2 derniers messages les 2 liens marqués "Invite". On les ouvre, et dans chacun des onglets on fait "Add your camera to OBS", on sélectionne une des 2 cams, pour le son "No Audio", on clique sur "START".
+/!\ Si vous faites le rangement, lisez bien la partie dédiée plus bas svp !
+
+La première chose à faire est le choix du PC. Pour rappel, on a 2 PC fixes, dont un petit et très facile à transporter (boite orange dans la valise grise) et une grosse tour (rangée dans son carton). Je recommande la tour car elle marche simplement mieux, mais si vous vous sentez pas de la bouger (elle pèse un peu), le petit PC marche.
+
+- On sort le PC, et on branche son alim (elle se trouve dans la valide grise, c'est le *gros* transfo)
+- On place les 5 écrans et branche leurs alims
+  - Les deux écrans AOC (sac intersport) pour les joueurs
+  - Pour la régie (attention quand vous branchez les écrans au gros PC via HDMI, il y a une ligne de 4 prises HDMI sur fond noir, ce ne sont PAS les sorties vidéo, il faut regarder un peu plus haut)
+    - Avec le petit PC : on met le Viewsonic (TLS View 1) branché en DisplayPort au PC, et le TLS Samsung 4 branché en HDMI.
+    - Avec le gros PC : on met le Viewsonic (TLS View 1) et un autre écran disponant d'un port DisplayPort (faut voir avec les TO). On les branche en displayport au PC. Dans cette disposition on n'aura pas besoin du TLS Samsung 4 donc penser à le proposer aux TO pour les setups
+  - Pour les casters on sort l'écran TLS Samsung 3.
+    - Si pas de projecteur, on le branche direct au PC en HDMI
+    - Si on veut brancher un projecteur, déjà faut s'assurer d'avoir un câble HDMI assez long, et surtout il faut sortir le splitter HDMI **2 sorties** (dans la boite blanche et bleu foncé). On branche alors l'écran des casters à l'une des sorties du splitter, et le projecteur à l'autre sortie, puis l'entrée du splitter à la sortie HDMI du PC.
+- Si on est sur le petit PC, on branche le HUB USB au PC (ce n'est PAS la boite avec marqué Hub USB), c'est le carton rectangulaire tout blanc
+- On branche en USB (les * indique les périphériques à brancher directement au PC et pas au hub si y en a un)
+  - * Si on est sur le petit PC, la carte de capture (elle se trouve dans une boite transparente dans la valise grise). Si on est sur le gros PC pas besoin de carte de capture !
+  - * La Logi Stream Cam (dans une autre boite transparente avec les autres cams) via usb c (y a bien une prise USB-C sur le PC)
+  - Une des cams USB noires, qu'on va utiliser comme cam joueurs (utiliser une rallonge USB si trop loin de la régie)
+  - La souris et le clavier
+- On s'occupe ensuite des HDMIs pour le jeu : 
+  - On sort le splitter 4 sortie, et on branche son alim
+  - On branche la sortie HDMI de la switch à l'entrée du splitter
+  - On branche les écrans joueurs à 2 sorties du splitter
+  - On branche une 3ème sortie du splitter à l'entrée (in) de la carte de capture. Si on est sur le gros PC pas de carte de capture, les 4 prises HDMI sur fond noir tout en bas de l'arrière du PC font office de carte de capture.
+- On sort la table de mixage (valise métalique noire) ou la carte son (boite en carton focusrite). Il est recommandé d'utiliser la table de mixage (c'est pas si compliqué vraiment promis) car la carte son a du mal à tenir tout le stream.
+  - Dans tous les cas, on branche en USB au PC avec le câble USB qui se trouve dans la boite/valise
+  - Pour la table de mixage, il faut sortir son alim (dans la valise également)
+- On sort les casque micro, qui se trouvent dans des housses noires
+  - Dans chaque housse se trouve un casque et un câble séparés, une vis (dans la pochette au font de la housse), et un splitter jack (dans 1 des 2)
+  - On commence par brancher la prise carrée au bout du câble au casque, puis une fois que la prise est bien insérée on tourne la vis dans le trou au niveau de la prise (pour maintenir le câble)
+  - Si on est sur la carte son (le boitier rouge), on branche le splitter dans la prise jack en bas à droite de la carte son. Puis, pour chaque casque, on branche sa prise jack, et l'autre embout (XLR) à la prise correspondante sur l'avant de la carte son.
+  - Si on est sur la table de mixage, les grosses prises des casques (XLR) vont dans les prises tout en haut de la table (utiliser la 2ème et la 3ème). Le splitter se branche dans la prise jack en bas à droite de la partie supérieure (marquée "Phones")
+- On allume la table de mixage le cas échéant (switch juste à côté de l'alim, attention à pas allumer l'autre switch)
+- On branche le cable ethernet de la box au PC.
+- Pour le casque régie il est sans fil, dans sa boite il y a une petite clé USB à brancher sur un port USB du PC ; il faut l'allumer avec le bouton à gauche ; il peut être bon de le mettre à charger (cable USB-C) avant le début du tournoi
+- On sort aussi l'ampli jack (le truc sur lequel les joueurs doivent brancher leurs casques, dans un carton marron) : on n'oublie pas son bloc chargeur, et on met le jack sur un des deux écrans. 
+
+Si disponible on sort aussi la tablette pour les bans, et on lance le navigateur internet.
 
 ### Logicielle
 Si tout n'est pas déjà installé, voir section "Première installation" plus bas
@@ -26,17 +55,21 @@ On commence par lancer OBS.
 
 Dans OBS : 
 
-- On commence par vérifier les caméras (à savoir : les "cam joueurs" c'est les cams devant eux, la "cam joueurs 2" c'est la cam en contre-plongée).
-  - Pour la cam joueurs 2, cam casters, et puis le jeu (la carte de capture compte comme une cam), si y en a une qui marche pas on va dans une scène qui les contient (respectivement, "Cam Joueurs 2", "Casters", "Jeu", faut chercher tout en bas pour les 2 dernières), dans la liste des sources on double-clique sur la source vidéo (c'est celle qui a une icône d'appareil photo), et on fait "désactiver" puis "activer". Si ça marche toujours pas, dans la liste déroulante en haut des propriétés, on choisit un autre périphérique puis on remet l'ancien.
+- On commence par vérifier les caméras :
+  - Pour Cam Joueurs et le jeu (la carte de capture compte comme une caméra), on vérifie leurs scènes de base respectives ("Cam Joueur 1" et "Jeu"), dans la liste des scènes, et dans la liste des sources on double-clique sur la source vidéo (c'est celle qui a une icône d'appareil photo), et on fait "désactiver" puis "activer". Si ça marche toujours pas, dans la liste déroulante en haut des propriétés, on choisit un autre périphérique puis on remet l'ancien.
+    - Pour la Cam joueur, le périphérique sélectionné doit terminer par "c920 ou c922
+    - Pour le jeu, ça doit être Game Capture HD60S pour la carte de capture, ou "Elgato Capture x" sur le gros PC (il y en 4 différent pour le Elgato Capture, un pour chaque prise à l'arrière, n'hésitez pas à tous les tester jusqu'à tomber sur la bonne prise)
 - Ensuite IMPORTANT on vérifie le son
-  - Sur le panel du son en bas de l'interface d'OBS, on voit entrées. Si la barre centrale s'anime c'est que du son est capté. Pour chacune, on clique sur les 3 points en bas, propriétés, et dans le menu déroulant on choisit le bon périphérique (ATTENTION si ça a l'air d'être déjà le bon, ouvrez quand même le menu des fois les casques aparaissent en double): 
-    - Pour le jeu, "Game Capture HD60 S"
+  - Si on est sur la table de mixage, il faut avant toute chose bouger les bons sliders : d'abord, tous les mettre à 0, puis remonter les deux "Main Mix" (à droite) à fond, puis le 2ème et 3ème en partant de la gauche (qui correspondent aux 2 prises sur lesquelles on a branché les casques) presque à fond. C'est ces 2 sliders que vuos allez utiliser pour contrôler le son de chaque caster individuellement.
+  - Sur le panel du son en bas de l'interface d'OBS, on voit les différentes entrées. Si la barre centrale s'anime c'est que du son est capté. Pour chacune, on clique sur les 3 points en bas, propriétés, et dans le menu déroulant on choisit le bon périphérique (ATTENTION si ça a l'air d'être déjà le bon, ouvrez quand même le menu, des fois les casques aparaissent en double) : 
+    - Pour le jeu, pareil que quand on a paramétré la scène Jeu plus haut
     - Pour les casters, "USB Codec" ou un truc comme ça pour la table de mixage, "Scarlett 2i2" pour la carte son
-    - Pour la régie, la marque du casque utilisé (donc en général HyperX Cloud)
-  - Une fois que les périphériques son set on vérifie qu'OBS entend tout le monde (comme dit plus haut faut que la barre colorée s'anime)
+    - Pour la régie, la marque du casque utilisé (donc en général HyperX Cloud avec notre casque habituel)
+  - Une fois que les périphériques sont bien on vérifie qu'OBS entend tout le monde (comme dit plus haut faut que la barre colorée s'anime ; pour le casque régie attention à bien le demute)
   - Dans les paramèrtres, partie Audio, dans "périphérique de monitoring" on choisit bien le casque de régie (HyperX Cloud)
-  - Si le casque régie n'entend pas le jeu et/ou les casters : clic droit dans la partie vide du panneau de contrôle du son, Propriétés Audio Avancées, pour les 2 sources "Casque Casters" et "Switch" on change "Monitoring et Sortie" en "Monitoring Désactivé" PUIS on remet à "Monitoring et Sortie". On remet donc comme c'était à la base au final, c'est un bug d'OBS qui nous oblige à faire ça. 
-  - Si les casters n'entendent pas la régie : clic droit sur l'entrée casque régie, filtres, dans la liste à gauche "Audio monitor", dans le menu déroulant à droite on choisit le périphérique qui correspont aux casques casters (table de mixage ou carte son)
+  - Si le casque régie n'entend pas le jeu et/ou les casters : clic droit dans la partie vide du panneau de contrôle du son, "Propriétés Audio Avancées", pour les 2 sources "Casque Casters" et "Switch" on change "Monitoring et Sortie" en "Monitoring Désactivé" PUIS on remet à "Monitoring et Sortie". On remet donc comme c'était à la base au final, c'est un bug d'OBS qui nous oblige à faire ça. Fuck OBS. Ca fait 3 ans c'est pas fix
+  - Si les casters n'entendent pas la régie : clic droit sur l'entrée casque régie, filtres, dans la liste à gauche "Audio monitor", dans le menu déroulant à droite on choisit le périphérique qui correspond aux casques casters (table de mixage ou carte son). C'est d'ailleurs sur ce menu qu'on contrôle le volume sonore de la régie dans les oreilles des casters.
+  - Pareil si les casters n'entendent pas le jeu
 
 On ouvre ensuite le dossier TLSStream qui se trouve sur le bureau.
 
@@ -47,9 +80,9 @@ Dans TSH, cliquer sur "Set tournament", et entrer l'URL de l'event (pas le tourn
 
 Ensuite, si on a la tablette pour le stage strike
 - on va dans l'onglet "Rules"/"Règles", et dans le dropdown tout en haut on choisit TLS. 
-- dans ce même onglet en bas, il doit y avoir un URL : on ouvre firefox sur la tablette et on rentre cet URL. 
+- dans ce même onglet en bas, il doit y avoir un URL : on ouvre firefox sur la tablette et on rentre cet URL. /!\ Le tablette doit être obligatoirement connectée au même réseau local que le PC (donc par exemple au MAD c'est leur box, le mdp est dans le channel production).
 
-Enfin (truc chiant mais ça va changer, pas obligatoire mais nécesaire pour avoir le truc qui affiche les derniers sets sur les scènes Duo), on va voir dans le dossier "TournamentStreamHelperTLS/layout/last_results/", on ouvre "config.json", et on remplace l'URL de tournoi déjà présente par l'URL qu'on avait déjà mis dans TSH. 
+En "bonus" qui permet de bien se faciliter la vie : on lance "Vicreo listener" et "Companion" (ne pas hésiter à utiliser la barre de recherche windows), puis sur un téléphone ou une tablette on peut accéder à l'URL "http://\<IP indiquée dans l'URL du stage strike\>:8000/tablet". On a alors accès à un panneau de boutons qui permettent de contrôler toutes les fonctionnalités importantes du stream. 
 
 ## Utilisation (pendant le tournoi) 
 ### Explication générales
@@ -121,55 +154,53 @@ Et surtout n'oubliez pas, je vous donne des indications sur les scènes à mettr
 
 ## Première installation
 
-Résumé : 
-- clone ou pull de ce repository
-- installation d'OBS
-	- importer TLS.json
-	- mettre en place les scripts countdown.lua et instant-replay.lua
-- installation des plugins OBS :
-	- transition matrix
- 	- Move transition
-    	- Downstream Keyer 
-- installation des resources externes
-	- Animated Lower Thirds -> installer le dock
+### Résumé
+- Insaller OBS
+- Clone le repo
+- Install plugins OBS
+  - Move transition
+  - Audio Monitor
+  - Downstream Keyer
+- Install autres : 
+  - VLC
+  - Elgato Capture au cas où
+  - Companion
+  - Vicreo
+- Install fonts (dans Assets/common/Font)
+- Dans OBS
+  - Importer collection (TLS.json)
+  - Charger le dock ALT
+- DL assets TSH
 
-Version longue : 
+### Version longue
 
-Il faut avoir l'environement de stream (c'est à dire l'ensemble des fichiers nécessaires ou utiles au stream) à jour. Ce dernier est géré avec git, donc deux solutions
-  - La première, beaucoup plus simple, ne permettra cependant pas de mettre à jour par la suite (faudra tout re-DL) : aller sur https://gitlab.com/TwilCynder/TournamentStreamHelperTLS, bouton de téléchargement en bas à droite
-  - La seconde est recommandée sur un PC qui va resservir : si ce n'est pas déjà fait, installer [Git](https://www.git-scm.com/downloads) (garder les options par défaut dans l'installeur), puis clic droit sur le dossier dans lequel l'environement de stream sera installé, "Git bash here", puis taper "`git clone --recurse-submodules https://gitlab.com/TwilCynder/TournamentStreamHelperTLS `" dans le terminal qui vient de s'ouvrir. 
+On commencer par installer OBS.
 
-Ensuite, si les scènes ne sont pas déjà faites dans OBS : 
-- Dans OBS, menu "Scene Collection" > "Import"; sélectionner `Scenes/TLS.json` dans l'environement de stream (CàD le fichier TLS.json dans le sous-dossier "Scenes" dans le dossier de stream). 
-- Il va râler parce qu'il ne trouve pas certains fichiers : l'emplacement de chaque fichier est disponible à la fin de ce document.  
+La plupart des fichiers nécessaires sont contenus sur un dépôt github. 2 solutions pour le récupérer : 
+- Solution simple qui ne permet pas de mettre à jour par la suite (je recommande donc la 2ème, néamoins plus complexe) : télécharger directement [à cette URL](https://github.com/TwilCynder/TLSStream/archive/refs/heads/main.zip), et extraire l'archive dans le dossier "C:\Stream". Il est important de le placer ici pour grandement simplifier la suite.
+- Solution recommandée pour un PC qui va servir plus d'une fois, mais qui nécessite Git : 
+  - installer [Git](https://www.git-scm.com/downloads) (garder les options par défaut sur l'installeur)
+  - Créer un dossier "C:\Stream"
+  - Clic droit sur ce dossier dans l'explorateur de fichiers (maj + clic droit sur l'horrible windows 11) -> "Open Git Bash Here"
+  - Dans le terminal qui s'ouvre, taper : `git clone https://github.com/TwilCynder/TLSStream --recurse-submodules`. 
+  - Le téléchargement se lance (~5Go)
 
-Ensuite, installer les add-ons pour OBS : 
-- [Transition Matrix](https://visualsbyimpulse.com/obs-transition-matrix/)
-  - Lancer l'installeur qui vient avec puis relancer OBS
+Installer également : 
+- Plugins OBS (Sur leur page de téléchargement choisir la version "windows-installer.zip", et lancer l'exécutable qui se trouve dans l'archive)
+  - [Move Transition](https://obsproject.com/forum/resources/move.913/)
+  - [Audio monitor](https://obsproject.com/forum/resources/audio-monitor.1186/)
+  - [Downstream Keyer](https://obsproject.com/forum/resources/downstream-keyer.1254/)
+- VLC Media Player
+- Elgato capture utility
 
-Ajout du dock Animated Lower Thirds (pour les po-ups) : 
-- Dans un navigateur, ouvrir `tools/Animated-Lower-Thirds/lower thirds/control-panel.html`, copier l'URL qui s'affiche dans la barre d'URL
-- Dans OBS, menu Docks>Custom Browser Docks, entrer l'URL copiée
-- Même process dans le navigateur avec `tools/Animated-Lower-Thirds/lower thirds/browser-source.html`
-- Dans la scène TLS In-Game, ouvrir les propriétés de la source "Pop Up", et entrer l'URL copiée 
+Installations optionnelles : 
+- Bitfocus companion
+- Vicreo listener
 
-En suite on lance TSH (TSH.exe, dans le dossier TournamentStreamHelperTLS).
-La première fois qu'on le lance il faut télécharger les assets de smash ultimate, pour ça : dans TSH, bouton de menu en haut à droite, "Downlad assets", sélectionner Super Smash bros. utimate en haut de la fenêtre qui vient de s'ouvrir, installer le premier pack dans la liste, ainsi que le 2ème si on veut pouvoir utiliser la scène "VS Screen"
+On installe les polices de caractère à partir des fichiers qui se trouvent dans "C:\Stream\TLSStream\Assets\common\Font\"
 
-### Dossiers à check pour les fichiers d'obs
-Avec le bouton "Search Directory" 
+On lance OBS, et on importe et charge une collection de scène depuis "C:/Stream/TLSStream/Scenes/TLS.json". OBS va se plaindre qu'il manque des fichiers, mais si TLSStream a bien été placé dans "C:/Stream" ça ne devrait pas être un problème. 
 
-- layout/
-  - alternating_logos
-  - bracketTLS
-  - castersTLS
-  - last_results
-  - recents_setsTLS
-  - soreboardTLS
-  - timer
-- ResourcesTLS/common/
-  - Transitions
-  - Overlay
-- tools/Animated-Lower-Thirds/lower thirds
+Dans le menu "Docks" -> "Docks Internet personnalisés", on clique sur les 3 points, sélectionner le fichier "C:\Stream\TLSStream\tools\Animated-Lower-Thirds\lower thirds\control-panel.html"
 
-Après avoir check tous ces dossiers il va manquer encore des fichiers, osef
+On lance ensuite TSH ; clic sur l'icône de menu en haut à droite -> "download assets", dans la fenêtre qui s'ouvre on sélectionne SSBU dans la liste des jeux (utiliser la barre de rechercher en haut), puis on télécharge les assets "base" et "mural"
