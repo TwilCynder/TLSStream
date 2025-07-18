@@ -82,21 +82,23 @@ Ensuite, si on a la tablette pour le stage strike
 - on va dans l'onglet "Rules"/"Règles", et dans le dropdown tout en haut on choisit TLS. 
 - dans ce même onglet en bas, il doit y avoir un URL : on ouvre firefox sur la tablette et on rentre cet URL. /!\ Le tablette doit être obligatoirement connectée au même réseau local que le PC (donc par exemple au MAD c'est leur box, le mdp est dans le channel production).
 
-En "bonus" qui permet de bien se faciliter la vie : on lance "Vicreo listener" et "Companion" (ne pas hésiter à utiliser la barre de recherche windows), puis sur un téléphone ou une tablette on peut accéder à l'URL "http://\<IP indiquée dans l'URL du stage strike\>:8000/tablet". On a alors accès à un panneau de boutons qui permettent de contrôler toutes les fonctionnalités importantes du stream. 
+En "bonus" qui permet de bien se faciliter la vie : on lance "Vicreo listener" et "Companion" (ne pas hésiter à utiliser la barre de recherche windows), puis sur un téléphone ou une tablette on peut accéder à l'URL "http://\<IP indiquée dans l'URL du stage strike\>:8000/tablet". On a alors accès à un panneau de boutons qui permettent de contrôler toutes les fonctionnalités importantes du stream (le "Panneau Companion"). Plus bas vous trouverez une section qui explique comment gérer le stream juste avec ça, lisez quand même le reste au cas où. 
 
 ## Utilisation (pendant le tournoi) 
 ### Explication générales
-Voir section suivante pour avoir juste la liste des chose à faire step by step, là c'est la partie explications (c'est bien d'avoir lu ça au moins une fois quand même). Lisez juste au moins la partie "OBS" ici. Les parties précédées d'un 🅰️ sont les trucs un peu "avancés" : c'est bien de les connaître mais pas besoin de les maîtriser dès le début.
+Voir section suivante pour avoir juste la liste des chose à faire step by step, là c'est la partie explications (c'est bien d'avoir lu ça au moins une fois quand même). Lisez juste au moins la partie "OBS" ici. Les parties précédées d'un 🅰️ sont les trucs un peu "avancés" : c'est bien de les connaître mais pas besoin de les maîtriser dès le début. 
+
 
 **OBS** : 
 - Rappel du système / concept de base : une **Scène** est basiquement un layout, un "écran" du stream avec ses éléments et leur placement (caméras, overlay, etc). La base de la régie ça va être d'afficher la bonne scène au bon moment.
-- On est en mode studio, avec preview à gauche et stream à droite ; quand on sélectionne une scène elle s'affiche à gauche, le stram voit ce qui s'affiche à droite, pour passer la scène sélectionnée en preview vers le stream il faut faire une transition. Pour ça vous pouvez utiliser le bouton transition entre la preview et le stream (ou faire Maj+>). 
+- On est en mode studio, avec preview à gauche et stream à droite ; quand on sélectionne une scène elle s'affiche à gauche, le stream voit ce qui s'affiche à droite, pour passer la scène sélectionnée en preview vers le stream il faut faire une transition. Pour ça vous pouvez utiliser les boutons transitions entre la preview et le stream 
 - On a différentes transitions entre les scènes ; si vous utilsez le bouton "transition" ça fait une transi par défaut mais on peut choisir la transition qu'on utilise (je recommande mais pour le début vous embêtez pas), avec les boutons en dessous du bouton transition. En gros : 
   - Les transitions "Stinger" c'est les animations stylées avec le logo TLS ; à utiliser modérément, trop de transition cool tue la transition cool. Voir section suivante pour des indications plus précises à ce niveau là.
-  - "Move" c'est une transition qui déplace les éléments, en gros à utiliser entre 2 scènes qui ont des éléments en commun. 
-  - Et pis sinon la transition "Fondu" c'est juste un fondu normal, à utiliser quand move est pas pertinent et qu'on veut pas faire de Stinger.
-- **Replays/Clip** (c'est pareil) : pour prendre un clip, c'est Maj+!. Si vous utilisez que ce raccourci, vous allez toujours avoir seulement le dernier clip pris qui s'affiche ; souvent ça suffit, et si vous voulez pas vous compliquer la vie on peut s'en contenter. 🅰️*Cependant*, il y a un système de playlist, c'est à dire que vous pouvez enregistrer plusieurs clips pour qu'ils soient joués à la suite. Maj+! prend un clip et vide la playlist avant de mettre le nouveau clip dedans ; Maj+: ajoute juste un nouveau clip dans la playlist. Donc concrètement on va faire Maj+! pour le premier clip de la game, et si y en a d'autres on fait Maj+: à chaque fois.
-- "Downstream Keyer" : dans les panneaux en bas d'IBS vous en avez un qui s'appelle "Downstream Keyer". Ca vous permet de superposer des trucs sur la scène actuelle (peu importe sur quelle scène vous êtes). Vous avez la liste des éléments que vous pouvez afficher, cliquez sur l'un d'eux pour l'afficher (par dessus la scène actuelle). Pour le faire disparaître, cliquez sur l'icône "pause" en bas de la liste (non ça ne fait pas de sens).
+  - "Move" c'est une transition qui déplace les éléments, en gros à utiliser à chaque fois que vous faites pas un Stinger
+  - "Cut"" c'est vraiment juste un cut, pas ouf donc mais pour afficher directement une scène cam joueurs après une game pour capturer un Pop-off ça peut être bien
+
+- **Replays/Clip** (c'est pareil) : En règle générale, vous faites Maj+! pour le premier clip du set, et Maj+: pour les suivants (en gros, on a une playlist de clips, et Maj+! la vide puis en ajoute un)
+
 - **Stage Strike** : pour le stage strike, en gros dès que les joueurs utilisent la tablette pour faire le stage strike, si vous cliquez sur "Stage strike" dans la liste du Downstream Keyer ça va afficher le stage strike en bas (peu importe la scène où vous êtes, vu que c'est le Downstream Keyer).
 
 **Scènes OBS** :  
