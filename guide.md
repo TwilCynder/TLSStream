@@ -13,7 +13,11 @@ Note : je pars du principe qu'on utilise la table de mixage, mais on peut aussi 
 
 La première chose à faire est le choix du PC. Pour rappel, on a 2 PC fixes, dont un petit et très facile à transporter (boite orange dans la valise grise) et une grosse tour (rangée dans son carton). Je recommande la tour car elle marche simplement mieux, mais si vous vous sentez pas de la bouger (elle pèse un peu), le petit PC marche.
 
-- On sort le PC, et on branche son alim (elle se trouve dans la valide grise, c'est le *gros* transfo)
+
+- On commence par installer les tables
+  - Au MAD, c'est une petite table devant le canapé des casters, une grande juste derrière pour les joueurs, une grande table sur le côté du canapé pour la régie, et une petite entre régie et joueurs (pour la table de mixage)
+- On amène l'électricité au setup régie, au MAD on fait passer une rallonge avec enrouleur derrière les canapés. 
+- On sort le PC, et on branche son alim (pour le petit elle se trouve dans la valide grise, c'est le *gros* transfo)
 - On place les 5 écrans et branche leurs alims
   - Les deux écrans AOC (sac intersport) pour les joueurs
   - Pour la régie (attention quand vous branchez les écrans au gros PC via HDMI, il y a une ligne de 4 prises HDMI sur fond noir, ce ne sont PAS les sorties vidéo, il faut regarder un peu plus haut)
@@ -42,7 +46,7 @@ La première chose à faire est le choix du PC. Pour rappel, on a 2 PC fixes, do
   - Si on est sur la carte son (le boitier rouge), on branche le splitter dans la prise jack en bas à droite de la carte son. Puis, pour chaque casque, on branche sa prise jack, et l'autre embout (XLR) à la prise correspondante sur l'avant de la carte son.
   - Si on est sur la table de mixage, les grosses prises des casques (XLR) vont dans les prises tout en haut de la table (utiliser la 2ème et la 3ème). Le splitter se branche dans la prise jack en bas à droite de la partie supérieure (marquée "Phones")
 - On allume la table de mixage le cas échéant (switch juste à côté de l'alim, attention à pas allumer l'autre switch)
-- On branche le cable ethernet de la box au PC.
+- On branche le cable ethernet de la box au PC. En général il vaut mieux utiliser le gros enrouleur rouge. Au MAD, on fait passer le câble derrière les canapés. 
 - Pour le casque régie il est sans fil, dans sa boite il y a une petite clé USB à brancher sur un port USB du PC ; il faut l'allumer avec le bouton à gauche ; il peut être bon de le mettre à charger (cable USB-C) avant le début du tournoi
 - On sort aussi l'ampli jack (le truc sur lequel les joueurs doivent brancher leurs casques, dans un carton marron) : on n'oublie pas son bloc chargeur, et on met le jack sur un des deux écrans. 
 
@@ -60,7 +64,7 @@ Dans OBS :
     - Pour la Cam joueur, le périphérique sélectionné doit terminer par "c920 ou c922
     - Pour le jeu, ça doit être Game Capture HD60S pour la carte de capture, ou "Elgato Capture x" sur le gros PC (il y en 4 différent pour le Elgato Capture, un pour chaque prise à l'arrière, n'hésitez pas à tous les tester jusqu'à tomber sur la bonne prise)
 - Ensuite IMPORTANT on vérifie le son
-  - Si on est sur la table de mixage, il faut avant toute chose bouger les bons sliders : d'abord, tous les mettre à 0, puis remonter les deux "Main Mix" (à droite) à fond, puis le 2ème et 3ème en partant de la gauche (qui correspondent aux 2 prises sur lesquelles on a branché les casques) presque à fond. C'est ces 2 sliders que vuos allez utiliser pour contrôler le son de chaque caster individuellement.
+  - Si on est sur la table de mixage, il faut avant toute chose bouger les bons sliders : d'abord, tous les mettre à 0, puis remonter les deux "Main Mix" (à droite) à fond, puis le 2ème et 3ème en partant de la gauche (qui correspondent aux 2 prises sur lesquelles on a branché les casques) presque à fond. C'est ces 2 sliders que vous allez utiliser pour contrôler le son de chaque caster individuellement. Ensuite on vérifie que les boutons "main" à côté des sliders en question sont enfoncés.
   - Sur le panel du son en bas de l'interface d'OBS, on voit les différentes entrées. Si la barre centrale s'anime c'est que du son est capté. Pour chacune, on clique sur les 3 points en bas, propriétés, et dans le menu déroulant on choisit le bon périphérique (ATTENTION si ça a l'air d'être déjà le bon, ouvrez quand même le menu, des fois les casques aparaissent en double) : 
     - Pour le jeu, pareil que quand on a paramétré la scène Jeu plus haut
     - Pour les casters, "USB Codec" ou un truc comme ça pour la table de mixage, "Scarlett 2i2" pour la carte son
@@ -70,6 +74,7 @@ Dans OBS :
   - Si le casque régie n'entend pas le jeu et/ou les casters : clic droit dans la partie vide du panneau de contrôle du son, "Propriétés Audio Avancées", pour les 2 sources "Casque Casters" et "Switch" on change "Monitoring et Sortie" en "Monitoring Désactivé" PUIS on remet à "Monitoring et Sortie". On remet donc comme c'était à la base au final, c'est un bug d'OBS qui nous oblige à faire ça. Fuck OBS. Ca fait 3 ans c'est pas fix
   - Si les casters n'entendent pas la régie : clic droit sur l'entrée casque régie, filtres, dans la liste à gauche "Audio monitor", dans le menu déroulant à droite on choisit le périphérique qui correspond aux casques casters (table de mixage ou carte son). C'est d'ailleurs sur ce menu qu'on contrôle le volume sonore de la régie dans les oreilles des casters.
   - Pareil si les casters n'entendent pas le jeu
+- Dans les boutons en bas a droite, on clique sur "Démarrer le tampon de relecture". Notez juste à côté les boutons "Démarrer l'enregistrement" et "Démarrer le streaming" qu'il faudra évidemment utiliser.
 
 On ouvre ensuite le dossier TLSStream qui se trouve sur le bureau.
 
@@ -91,60 +96,67 @@ Voir section suivante pour avoir juste la liste des chose à faire step by step,
 
 **OBS** : 
 - Rappel du système / concept de base : une **Scène** est basiquement un layout, un "écran" du stream avec ses éléments et leur placement (caméras, overlay, etc). La base de la régie ça va être d'afficher la bonne scène au bon moment.
+- Pour lancer le steam, c'est le bouton en bas à droite d'OBS, pareil pour l'enregistrement. On lance l'enregistrement en même temps que le stream, et on le cut à la fin, de manière à avoir une seule grosse vidéo.
 - On est en mode studio, avec preview à gauche et stream à droite ; quand on sélectionne une scène elle s'affiche à gauche, le stream voit ce qui s'affiche à droite, pour passer la scène sélectionnée en preview vers le stream il faut faire une transition. Pour ça vous pouvez utiliser les boutons transitions entre la preview et le stream 
 - On a différentes transitions entre les scènes ; si vous utilsez le bouton "transition" ça fait une transi par défaut mais on peut choisir la transition qu'on utilise (je recommande mais pour le début vous embêtez pas), avec les boutons en dessous du bouton transition. En gros : 
-  - Les transitions "Stinger" c'est les animations stylées avec le logo TLS ; à utiliser modérément, trop de transition cool tue la transition cool. Voir section suivante pour des indications plus précises à ce niveau là.
-  - "Move" c'est une transition qui déplace les éléments, en gros à utiliser à chaque fois que vous faites pas un Stinger
+  - Les transitions "Stinger" c'est les animations stylées avec le logo TLS ; à utiliser modérément, trop de transition cool tue la transition cool. 
+  - "Move" c'est une transition smooth, à utiliser quand vous utilisez pas le stinger (surtout entre 2 scènes similaires)
   - "Cut"" c'est vraiment juste un cut, pas ouf donc mais pour afficher directement une scène cam joueurs après une game pour capturer un Pop-off ça peut être bien
+
 
 - **Replays/Clip** (c'est pareil) : En règle générale, vous faites Maj+! pour le premier clip du set, et Maj+: pour les suivants (en gros, on a une playlist de clips, et Maj+! la vide puis en ajoute un)
 
-- **Stage Strike** : pour le stage strike, en gros dès que les joueurs utilisent la tablette pour faire le stage strike, si vous cliquez sur "Stage strike" dans la liste du Downstream Keyer ça va afficher le stage strike en bas (peu importe la scène où vous êtes, vu que c'est le Downstream Keyer).
+- **Stage Strike** : pour le stage strike, en gros dès que les joueurs utilisent la tablette pour faire le stage strike, les stages vont s'afficher sur la scène "VS Screen Cam Stage Strike". 🅰️ Vous pouvez aussi utiliser le DSK Stages (voir partie DSK)
 
 **Scènes OBS** :  
-Je ne vais pas lister les scènes ici, si vous ne les connaissez pas bien le mieux c'est de toutes les regarder pour voir ce qu'elles affichent (j'ai un doute sur telle scène, je clique juste dessus pour la voir dans la preview), ou de suivre le guide en section suivante pour savoir quand mettre quoi !  Quelques scène spéciales : 
-- Les scènes avec "Replay" dans le nom affichent le replay/clip (ou plus précisément, si vous avez tout lu dans la partie sur les clips, la playlist des replays).
-- BracketTLS 🅰️ : affiche le bracket du top 8 uniquement, bien joli et tout, voir dans la partie TSH juste en dessous pour voir comment faire pour le bracket s'affiche bien
-- TLS Bracket 🅰️ : là c'est juste une page startgg avec le bracket mais en plus joli, on ouvre le bracket sur startgg et on copie l'URL pour la coller dans les propriétés de la source navigateur présente dans cette scène (elle met du temps à bien s'afficher) ; pour scroll sur le bracket on sélectionne la source navigateur, on clique sur le bouton "Interagir" juste au dessus des sources, et on scroll (avec la molette de la souris normal)
+Je ne vais pas lister les scènes ici, si vous ne les connaissez pas bien le mieux c'est de toutes les regarder pour voir ce qu'elles affichent (j'ai un doute sur telle scène, je clique juste dessus pour la voir dans la preview), ou de suivre le guide en section suivante pour savoir quand mettre quoi !  
+En résumé : 
+- TLS In Game affiche le jeu (a toujours mettre pendant les games)
+- Les scenes Trio et Duo affichent plusieurs sources (jeu, cams) en même temps
+- Les scènes avec "Replay" dans le nom affichent les replay/clips sauvegardés 
+- BracketTLS 🅰️ : affiche le bracket du top 8/16 uniquement, doit d'abord être configuré dans TSH
+- Du reste, les noms des scènes sont plutot explicites
+- La scène Timer contient un timer qu'il faut configurer manuellement, voir plus bas
+- Les scènes situées apres la scène "==== SOURCES" ne sont pas a utiliser
 
 **Utilisation de TSH**
 - On va charger les matchs avec la liste qui s'ouvre en cliquant sur `Load sets from xxx` en bas. Les sets qui nous intéressent sont ceux qui ont le nom de la chaine indiqué à gauche (c'est ceux qui sont streamés) ; vous pouvez faire double clic sur la colonne "Stream" pour afficher ces sets là en haut. En général vous sélectionnez juste le premier set streamé de la liste.
 - Presque tout est alors mis à jour automatiquement, il faut juste remplir manuellement : 
-  - Les persos 
   - Le champ "Best of" au milieu, pour indiquer si on est en BO3 ou BO5
   - Les commentateurs : pour ça il faut aller chercher dans l'onglet "Commentary"  
-Le score s'update tout seul si vous le mettez à jour sur startgg (donc faut ouvrir le set sur firefox à côté, et mettre à jour game par game au fur et à mesure du set. Sur la "fenêtre" du set startgg on
-- Quand on veut afficher le bracket (Scène BracketTLS), déjà on se prépare à ce que ça fasse crash TSH, ça arrive c pas grave faut juste le relancer et remettre toutes les infos, on va dans l'onglet "arbre", dans le menu déroulant en haut à gauche on sélectionne "Top 8", on attend un peu (on ne touche surtout pas à TSH tant qu'il n'affiche pas le bracket), et normalement c'est bon
+Le score s'update tout seul si vous le mettez à jour sur startgg (donc faut ouvrir le set sur firefox à côté, et mettre à jour game par game au fur et à mesure du set)
+- Quand on veut afficher le bracket (Scène BracketTLS), déjà on se prépare à ce que ça fasse crash TSH, ça arrive c pas grave faut juste le relancer et remettre toutes les infos, on va dans l'onglet "arbre", dans le menu déroulant en haut à gauche on sélectionne "Top 8\16", puis dans le menu deroulant juste a droite on selectionne "Poule 1" (c'est normal qu'il n'y ait que cette option dans la liste), puis on attend ; TSH va freeze un peu, puis le bracket s'affiche a droite (ne surtout pas cliquer sur tsh tant qu'il n'a pas fini d'afficher le bracket, risque de crash). A  e moment là on peut afficher la scène bracket dans OBS
 
-### Guide concret
-Là c'est la partie à relire si vous voulez vous rafraichir un peu/avez un doute sur la marche à suivre pendant le tournoi.
+**Timer** : pour configurer le timer de la scène Timer, dans Outils (barre en haut d'OBS) -> Scripts, choisir "countdown.lua" et rentrer le nombre de minutes a droite de la fenêtre 
+u
+🅰️ **DSK (DownStream Keyer)** : un système permettant d'afficher qque chose par dessus la scène actuelle, peu importe sur quelle scène on est. Il se contrôle dans le panneau en bas à droite (c'est un petit panneau avec plusieurs onglets), qui affiche une liste d'éléments à afficher. On y trouve notament "DSK Stages", qui affiche le stage strike. Pour afficher un des éléments, vous pouvez simplemnt le sélectioner dans la liste ; pour l'enlever, cliquer sur l'icône Pause en bas du panneau. Attention, le DSK s'affiche toujours directement sur le programme. 
+
+### Deroulement du stream
 
 **Début de stream**
-- On ouvre sur la scène casters en général, jusqu'à ce que les joueurs arrivent (also j'aime bien passer sur casters + scoreboard dès que les casters demandent inévitablement qui joue en premier)
+- On **lance le stream et l'enregistrement (boutons en bas à droite)** sur la scène Timer. Penser a configurer le timer avant (voir plus haut)
+- A la fin du timer, on peut afficher la scène "Intro TLS" (elle affiche une vidéo, ca se voit pas dans la preview), c'est optionel
+- Puis on ouvre sur la scène casters en général, jusqu'à ce que les joueurs arrivent (also j'aime bien passer sur "casters + scoreboard" dès que les casters demandent inévitablement qui joue en premier)
 
 **Début de match/Avant match**
 - On sélectionne le match dans TSH
 - Dès que les joueurs sont là on passe sur une des scènes Trio/Duo (voir partie "Entre les games") histoire d'avoir les joueurs et les casters affichés (en général on met les joueurs en grand quand ils sont installés)
 - on lance le match sur startgg, on clique sur "report game data". Pas besoin de mettre les persos pour l'instant.
-- on lance l'enregistrement
-- En général on essaie d'afficher la scène "Head2Head", et/ou "Result History" pour les infos, et "VSScreen Cams" un peu avant qu'ils lancent. 
+- En général on essaie d'afficher la scène "Head2Head", "Result History" et/ou Current Run (pas pertinentau début du tournoi) pour les infos, et "VSScreen Cams" un peu avant qu'ils lancent. 
 
 **Game**
-- Quand vous voyez que les joueurs sont en train de faire le ban des stages sur la tablette, vous affichez le Downstream Keyer "Stage Strike" (c'est bien avec une scène qui montre la cam joueurs 2 en grand, voire carrément de mettre la scène Cam Joueurs 2 basique).
+- Quand vous voyez que les joueurs sont en train de faire le ban des stages sur la tablette, vous affichez la scène "VS Screen Cams Stage Strike" (🅰️ ou le DSK Stages)
 - Dans startgg on renseigne le stage choisi. Pas besoin de mettre les persos.
 - dès que la game commence on passe sur "TLS In-Game"
-- On pense à prendre des clips (Maj+! pour le premier clip de la game, et si jamais y d'autres clips dans la même game Maj+: pour l'ajouter par dessus le précédent au lieu de le remaplcer)
-- Quand la game se termine, si on a pris des clips on passe sur une scène avec "replay" dans le nom, par contre en cas de popoff ça peut être bien de passer (en fondu carrément pour aller vite) sur une scène avec les joueurs en grand, puis ensuite de montrer le replay. 
-- On update le score en choisissant le vainqueur pour cette game, sur startgg.
+- On pense à prendre des clips (Maj+! pour le premier clip du match, Maj+: pour les suivants)  
+- Quand la game se termine, si on sent venir un popoff on cut directement sur VS Screen Cams
+- On update le score en reportant la game sur startgg (penser à faire "Save Progress" pour save, pas "Submit Result")
 
 **Entre les games**
-- on affiche une des scènes "Trio" ou "Duo", un peu comme on veut, avec les casters en grand le plus souvent, perso j'ai une petite préférences pour les Duo (qui affichent la liste des derniers sets) mais c'est bien de changer.
-- dès qu'on sait qui joue on sélectionne le match dans TSH
-- Si les casters ont demandé une info sur un des trucs qu'il y a dans la liste du Downstream Keyer, ou si ils ont dit de la merde (rappel : ceux qui commencent par "DSK" c'est les slides informatives, ça inclut le poids d'un perso, fonctionnement des pikmins, etc).
+- on affiche une des scènes "Trio" ou "Duo", un peu comme on veut, perso j'ai une petite préférences pour les Duo (qui affichent la liste des derniers sets) mais c'est bien de changer.
 
 **Fin de match**
 - Là seulement on met les persos sur startgg, et on fait "Submit Result".
-- On arrête l'enregistrement
 
 **Entre les matchs**
 - C'est un peu comme pour entre les games, on met une scène Trio/Duo
@@ -152,7 +164,26 @@ Là c'est la partie à relire si vous voulez vous rafraichir un peu/avez un dout
 - si changement de caster on pense à changer le nom dans TSH
 - Et puis on repart à la partie "Début de match/Avant match"
 
+**Fin du stream** 
+- Une fois la GF finie, on peut passer sur la scène Casters pour les laisser clore le stream (après une éventuelle interview), puis on passe sur la scène fin, on coupe le record, puis on attend un peu avant de couper le stream. 
+- On branche le SSD TLS au PC (demander aux TO qui l'a), et on y copie la la vidéo enregistrée, qui se trouve dans le dossier Vidéos. 
+
 Et surtout n'oubliez pas, je vous donne des indications sur les scènes à mettre, et si vous suivez mes indications normalement vous avez un stream propre, mais au final c'est à vous de juger quelle scène vous voulez mettre (hors des games en tout cas). Dans les scènes Duo/Trio mettez les casters en grand ou les joueurs en grand en fonction de ce qui vous paraît + intéressant / vivant sur le moment, et quand y a rien d'autre que les casters qui bouge on peut mettre la scène avec juste les casters, des fois le VSScreen Cams a la bonne vibe et des fois moins, bref.
+
+### Rangement
+En soi il n'y a rien à savoir de plus si vous connaissez déjà la procédure pour l'installation, on va juste tout remettre comme avant. 
+- De manière générale les alims des apareils restent avec les appareils en question. Toutes les boites peuvent se ranger sans forcer.
+  - La table de mixage se range avec son câble USB (en plus de l'alim). Pareil pour la carte son
+  - Le casque régie hyper X se range avec sa clé USB, penser à détacher le micro avant de mettre dans la boite
+  - L'ampli des joueurs se range avec son câble jack en plus de l'alim
+  - Le petit PC se range SANS son alim (le gros transfo) qui va dans la valise des câbles
+- Pour le gros PC, faites y vraiment gaffe svp, les cadres en mousse vont en haut et en bas, le PC se met avec l'avant en bas dans le carton
+- Pour les casques : on dévisse la vis près du câble, on retire le câble, puis on range dans les housses. La vis va dans la poche au fond de la housse, le câble s'enroule au centre. On range le splitter jack avec un des 2 casques.
+- Pour tous les câbles qui ne sont pas avec un appareil en particulier (câbles HDMI/DP, rallonges USB, etc) c'est direction la valise noire : le compartiment très rempli c'est pour les câbles audio/vidéo, l'autre c'est pour le reste (USB, etc). Pensez bien à ENROULER TOUS LES CABLES, ils ont des scratchs qui vous permettent de les maintenir enroulés. Avant de fermer la valise, veiller à ce que les câbles ne soient pas trop en tas, que la valise puisse bien fermer.
+- Dans le sac régie (le sac carrefour avec marqué "Régie"), on met les housses des casques, puis les claviers, puis les souris
+- Les cams vont dans une des boites transparentes
+- Toutes les boites vont dans la valise grise. Pour pouvoir la fermer sans forcer (ne faites pas ça!!!!) il faut un peu d'organisation : y a un exemple dans les épinglés du channel production
+
 
 ## Première installation
 
