@@ -170,6 +170,23 @@ u
 
 Et surtout n'oubliez pas, je vous donne des indications sur les scènes à mettre, et si vous suivez mes indications normalement vous avez un stream propre, mais au final c'est à vous de juger quelle scène vous voulez mettre (hors des games en tout cas). Dans les scènes Duo/Trio mettez les casters en grand ou les joueurs en grand en fonction de ce qui vous paraît + intéressant / vivant sur le moment, et quand y a rien d'autre que les casters qui bouge on peut mettre la scène avec juste les casters, des fois le VSScreen Cams a la bonne vibe et des fois moins, bref.
 
+### Utiliser Companion
+Companion est un logiciel optionnel qui permet d'afficher un tableau de boutons permettant de contrôler la plupart des éléments de la régie.
+
+Après l'avoir lancé, une petite fenêtre rouge apparaît. Dans le menu dropdown marqué "Change network interfaces", sélectionner "0.0.0.0 / All Interfaces".
+
+![alt text](./assets-guide/companion%20window.png)
+
+On va ensuite récupérer l'IP du PC, pour ça le plus simple est d'aller voir l'URL en bas de l'onglet "Règles / Rules" dans TSH et repérer l'IP entre le "http://" et le ":5000" (4 nombres séparés par des points).  
+On va aller à l'URL suivante : `http://IpDuPC:8000/button`.  
+
+Une fois la page ouvert on devrait avoir une grande grille de boutons, qui permettent de contrôler un peu tout le stream :
+- Les boutons "score" changent le score. Attention, si on utilise ça au lieu de changer le score via startgg directement, il faut préciser aux joueurs d'aller report eux mêmes à la fin. 
+- Les boutons avec des noms de scène OBS (vert/noir/orange) affichent cette scène directement.
+- Les boutons gris permettent de contrôler les replays (rappel : on les affiche en mettant une scène qui a "Replay" dans le nom)
+- 🅰️ Les boutons Jaunes contrôlent le DSK
+
+
 ### Rangement
 En soi il n'y a rien à savoir de plus si vous connaissez déjà la procédure pour l'installation, on va juste tout remettre comme avant. 
 - De manière générale les alims des apareils restent avec les appareils en question. Toutes les boites peuvent se ranger sans forcer.
