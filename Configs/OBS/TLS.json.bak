@@ -7,13 +7,13 @@
         "versioned_id": "wasapi_input_capture",
         "settings": {
             "undo_sname": "Son Casters",
-            "device_id": "{0.0.1.00000000}.{1d044a9d-c41d-4517-a8bf-118dd73dd568}",
+            "device_id": "{0.0.1.00000000}.{5f1f787f-a690-4664-8681-e9dec4f1b9c0}",
             "use_device_timing": false
         },
         "mixers": 255,
         "sync": 0,
         "flags": 2,
-        "volume": 0.5026671290397644,
+        "volume": 0.0,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -25,7 +25,9 @@
             "libobs.mute": [],
             "libobs.unmute": [],
             "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
+            "libobs.push-to-talk": [],
+            "AudioMonitor.Enable": [],
+            "AudioMonitor.Disable": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
@@ -84,6 +86,34 @@
             },
             {
                 "prev_ver": 520093699,
+                "name": "Moniteur Audio",
+                "uuid": "578b915a-af10-4674-96f1-1888959bf4ad",
+                "id": "audio_monitor",
+                "versioned_id": "audio_monitor",
+                "settings": {
+                    "deviceName": "Haut-parleurs (ClickShare Speaker)",
+                    "volume": 52,
+                    "device": "{0.0.0.00000000}.{1e98aed5-dc2a-491d-90d4-34aad9912caf}"
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 520093699,
                 "name": "Suppression du bruit",
                 "uuid": "556d62cd-9e42-4cb2-a584-e2b97a09e33a",
                 "id": "noise_suppress_filter",
@@ -115,15 +145,15 @@
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
-            "device_id": "{0.0.1.00000000}.{11281813-410b-4e23-a40f-8ddc0b10bbf6}"
+            "device_id": "{0.0.1.00000000}.{24f67a14-e47e-4d87-96f3-0f2578ec45a1}"
         },
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.0,
+        "volume": 0.39586618542671204,
         "balance": 0.5,
         "enabled": true,
-        "muted": true,
+        "muted": false,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -150,7 +180,7 @@
                 "settings": {
                     "deviceName": "Haut-parleurs (USB Audio CODEC )",
                     "volume": 50.0,
-                    "device": "{0.0.0.00000000}.{8d134192-e413-4b19-b77c-6f1c5de3a9f8}"
+                    "device": "{0.0.0.00000000}.{ca2197d9-2d19-4b21-a0e7-3e9ea82046d4}"
                 },
                 "mixers": 255,
                 "sync": 0,
@@ -178,7 +208,7 @@
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
-            "device_id": "{0.0.1.00000000}.{3953c3c1-82fd-4c04-a970-339e4e99920b}"
+            "device_id": "{0.0.1.00000000}.{69102e0d-75ce-4e0b-a5ac-032dd37a8b6a}"
         },
         "mixers": 255,
         "sync": 0,
@@ -213,7 +243,7 @@
                 "settings": {
                     "deviceName": "Haut-parleurs (USB Audio CODEC )",
                     "volume": 69,
-                    "device": "{0.0.0.00000000}.{8d134192-e413-4b19-b77c-6f1c5de3a9f8}"
+                    "device": "{0.0.0.00000000}.{ca2197d9-2d19-4b21-a0e7-3e9ea82046d4}"
                 },
                 "mixers": 255,
                 "sync": 0,
@@ -234,39 +264,8 @@
             }
         ]
     },
-    "AuxAudioDevice4": {
-        "prev_ver": 520093699,
-        "name": "Mic/Aux 4",
-        "uuid": "f5683525-88e3-444b-9d06-c7eb64e2481a",
-        "id": "wasapi_input_capture",
-        "versioned_id": "wasapi_input_capture",
-        "settings": {
-            "device_id": "{0.0.1.00000000}.{fb02f2c1-0ac7-4c7d-aa9c-5e58afee529a}"
-        },
-        "mixers": 255,
-        "sync": 0,
-        "flags": 0,
-        "volume": 1.0,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": false,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 2,
-        "private_settings": {}
-    },
-    "current_scene": "Cam Salle",
-    "current_program_scene": "Trio Joueurs (Casters Game)",
+    "current_scene": "Duo Replay Salle",
+    "current_program_scene": "Duo Replay Salle",
     "scene_order": [
         {
             "name": "TLS In Game"
@@ -282,9 +281,6 @@
         },
         {
             "name": "Trio Joueurs (Casters Game)"
-        },
-        {
-            "name": "Roster Cam"
         },
         {
             "name": "Trio Casters (Joueurs Game)"
@@ -416,9 +412,6 @@
             "name": "Screen"
         },
         {
-            "name": "Pseudo Cam Salle"
-        },
-        {
             "name": "Jeu"
         },
         {
@@ -444,12 +437,6 @@
         },
         {
             "name": "======= DSK"
-        },
-        {
-            "name": "DSK SLT Classement"
-        },
-        {
-            "name": "DSK Overlay"
         },
         {
             "name": "Stage Strike"
@@ -534,12 +521,6 @@
         },
         {
             "name": "Bracket Navigateur"
-        },
-        {
-            "name": "DSK Zevent White"
-        },
-        {
-            "name": "DSK Zevent Black"
         }
     ],
     "name": "TLS",
@@ -878,8 +859,8 @@
         }
     ],
     "saved_projectors": [],
-    "current_transition": "Stinger TLS Black",
-    "transition_duration": 500,
+    "current_transition": "Coupure",
+    "transition_duration": 600,
     "preview_locked": false,
     "scaling_enabled": false,
     "scaling_level": 0,
@@ -946,15 +927,6 @@
                     },
                     {
                         "name": "température"
-                    },
-                    {
-                        "name": "DSK SLT Classement"
-                    },
-                    {
-                        "name": "DSK Zevent White"
-                    },
-                    {
-                        "name": "DSK Zevent Black"
                     }
                 ],
                 "scene": "",
@@ -964,30 +936,6 @@
                         "key": "OBS_KEY_C"
                     }
                 ],
-                "enable_tie_hotkey": [],
-                "disable_tie_hotkey": [],
-                "exclude_scenes": []
-            },
-            {
-                "name": "DSK 2",
-                "transition": "",
-                "transition_duration": 300,
-                "show_transition": "",
-                "show_transition_duration": 300,
-                "hide_transition": "",
-                "hide_transition_duration": 300,
-                "hide_after": 1,
-                "tie": false,
-                "scenes": [
-                    {
-                        "name": "Duo Casters Joueurs"
-                    },
-                    {
-                        "name": "DSK Overlay"
-                    }
-                ],
-                "scene": "",
-                "null_hotkey": [],
                 "enable_tie_hotkey": [],
                 "disable_tie_hotkey": [],
                 "exclude_scenes": []
@@ -1011,7 +959,7 @@
                 "settings": {
                     "reset_hotkey": [],
                     "source": "Timer1",
-                    "duration": 5
+                    "duration": 1
                 }
             },
             {
@@ -2275,12 +2223,12 @@
             "settings": {
                 "last_resolution": "1920x1080",
                 "resolution": "1920x1080",
-                "video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#227&101a8702&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "last_video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#227&101a8702&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "frame_interval": -1,
                 "res_type": 1,
                 "active": true,
-                "hw_decode": true
+                "hw_decode": true,
+                "video_device_id": "JOYACCESS JA-Webcam:\\\\?\\usb#22vid_0c45&pid_6362&mi_00#227&24933573&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "last_video_device_id": "JOYACCESS JA-Webcam:\\\\?\\usb#22vid_0c45&pid_6362&mi_00#227&24933573&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "frame_interval": -1
             },
             "mixers": 255,
             "sync": 0,
@@ -2407,7 +2355,7 @@
                     {
                         "name": "Cam Joueur 2",
                         "source_uuid": "3d9a3043-0e69-4f93-b145-4b2f39d11bab",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2495,7 +2443,7 @@
                 "resolution": "1920x1080",
                 "video_device_id": "Cam Link Pro HDMI-2:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03402000226}",
                 "last_video_device_id": "Cam Link Pro HDMI-2:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03402000226}",
-                "frame_interval": -1,
+                "frame_interval": 166666,
                 "res_type": 1,
                 "active": true,
                 "autorotation": false,
@@ -2534,11 +2482,11 @@
             "settings": {
                 "last_resolution": "1280x720",
                 "resolution": "1280x720",
-                "video_device_id": "Cam Link Pro HDMI-3:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03403000226}",
-                "last_video_device_id": "Cam Link Pro HDMI-3:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03403000226}",
                 "frame_interval": 166666,
                 "res_type": 1,
-                "active": true
+                "active": true,
+                "video_device_id": "Cam Link Pro HDMI-3:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03403000226}",
+                "last_video_device_id": "Cam Link Pro HDMI-3:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03403000226}"
             },
             "mixers": 255,
             "sync": 0,
@@ -3152,7 +3100,7 @@
                     {
                         "name": "Cam Tel",
                         "source_uuid": "0338f724-fef3-405f-b713-e02762565a30",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": -90.0,
                         "scale_ref": {
@@ -3389,11 +3337,11 @@
                 "last_resolution": "1920x1080",
                 "resolution": "1920x1080",
                 "undo_sname": "Cam Joueur 2",
+                "res_type": 1,
+                "active": true,
                 "video_device_id": "Cam Link Pro HDMI-4:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03404000226}",
                 "last_video_device_id": "Cam Link Pro HDMI-4:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03404000226}",
-                "frame_interval": -1,
-                "res_type": 1,
-                "active": true
+                "frame_interval": -1
             },
             "mixers": 255,
             "sync": 0,
@@ -3426,7 +3374,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?view=QuH65WE",
+                "url": "https://vdo.ninja/?view=nhZNTKN",
                 "width": 1920,
                 "height": 1080,
                 "fps": 60,
@@ -3953,8 +3901,8 @@
                 "resolution": "1920x1080",
                 "undo_uuid": "751f82fc-6792-486c-bebd-d265341563d4",
                 "use_custom_audio_device": false,
-                "video_device_id": "Cam Link Pro HDMI-4:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03404000226}",
-                "last_video_device_id": "Cam Link Pro HDMI-4:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03404000226}",
+                "video_device_id": "Cam Link Pro HDMI-1 / Multiview:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03401000226}",
+                "last_video_device_id": "Cam Link Pro HDMI-1 / Multiview:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03401000226}",
                 "frame_interval": -1,
                 "res_type": 1,
                 "video_format": 0,
@@ -4295,7 +4243,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -4584,12 +4532,12 @@
                         "id": 1,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 102.0,
-                            "y": 852.0
+                            "x": 1120.0,
+                            "y": 630.0
                         },
                         "pos_rel": {
-                            "x": -1.5888888835906982,
-                            "y": 0.57777774333953857
+                            "x": 0.29629629850387573,
+                            "y": 0.16666662693023682
                         },
                         "scale": {
                             "x": 1.0,
@@ -4790,96 +4738,6 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "DSK Overlay",
-            "uuid": "8d8ac761-d3ad-43c7-9e88-51760716d597",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 1,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Overlay Out of Game",
-                        "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "Afficher DSK 2": [],
-                "Masquer DSK 2": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "DSK Pikmins",
             "uuid": "2f7cdf38-f91b-47ee-9a27-05f962b9f116",
             "id": "scene",
@@ -4909,20 +4767,20 @@
                         "id": 1,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 267.0,
-                            "y": 132.0
+                            "x": 62.0,
+                            "y": 35.0
                         },
                         "pos_rel": {
-                            "x": -1.2833333015441895,
-                            "y": -0.75555557012557983
+                            "x": -1.6629629135131836,
+                            "y": -0.93518519401550293
                         },
                         "scale": {
-                            "x": 0.70208334922790527,
-                            "y": 0.70185184478759766
+                            "x": 0.93541663885116577,
+                            "y": 0.93518519401550293
                         },
                         "scale_rel": {
-                            "x": 0.70208334922790527,
-                            "y": 0.70185184478759766
+                            "x": 0.93541663885116577,
+                            "y": 0.93518519401550293
                         },
                         "bounds": {
                             "x": 0.0,
@@ -5051,101 +4909,6 @@
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "Afficher DSK 1": [],
-                "Masquer DSK 1": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "DSK SLT Classement",
-            "uuid": "ded67f15-e1ab-4849-bc54-fcad79ce38b8",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 1,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "SLT CLassement",
-                        "source_uuid": "1006c149-70a4-4e12-a1e6-2cfe75ff7c12",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 7,
-                        "crop_top": 9,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 404.0,
-                            "y": 409.0
-                        },
-                        "pos_rel": {
-                            "x": -1.0296295881271362,
-                            "y": -0.24259257316589355
-                        },
-                        "scale": {
-                            "x": 0.92611682415008545,
-                            "y": 0.92757660150527954
-                        },
-                        "scale_rel": {
-                            "x": 0.92611682415008545,
-                            "y": 0.92757660150527954
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "Afficher DSK 1": [
-                    {
-                        "alt": true,
-                        "key": "OBS_KEY_L"
-                    }
-                ],
                 "Masquer DSK 1": []
             },
             "deinterlace_mode": 0,
@@ -5423,193 +5186,13 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "DSK Zevent Black",
-            "uuid": "26d0f999-c13a-4937-a60e-5419922c3911",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 1,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "LT Zevent Black",
-                        "source_uuid": "c66a0535-ddbe-41bf-a9cd-bfbfae002840",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1557.0,
-                            "y": 787.0
-                        },
-                        "pos_rel": {
-                            "x": 1.105555534362793,
-                            "y": 0.45740735530853271
-                        },
-                        "scale": {
-                            "x": 0.18906250596046448,
-                            "y": 0.18888889253139496
-                        },
-                        "scale_rel": {
-                            "x": 0.18906250596046448,
-                            "y": 0.18888889253139496
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "Afficher DSK 1": [],
-                "Masquer DSK 1": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "DSK Zevent White",
-            "uuid": "3ebb5fca-d94e-416e-b53a-b53048e1185f",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 1,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "LT Zevent White",
-                        "source_uuid": "8448c1d8-0e1b-4387-9582-aae5f9f655b7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1557.0,
-                            "y": 787.0
-                        },
-                        "pos_rel": {
-                            "x": 1.105555534362793,
-                            "y": 0.45740735530853271
-                        },
-                        "scale": {
-                            "x": 0.18906250596046448,
-                            "y": 0.18888889253139496
-                        },
-                        "scale_rel": {
-                            "x": 0.18906250596046448,
-                            "y": 0.18888889253139496
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "Afficher DSK 1": [],
-                "Masquer DSK 1": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "Duo Casters Joueurs",
             "uuid": "dac6d953-a8cf-4634-9ed9-4170cd8335e2",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 27,
+                "id_counter": 26,
                 "items": [
                     {
                         "name": "Background TLS Moving.jpg",
@@ -5630,6 +5213,61 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_rel": {
+                            "x": 3.5555555820465088,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Overlay NoLogo",
+                        "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 970,
+                        "id": 7,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -5793,16 +5431,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 12,
                         "id": 10,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": 0.0,
+                            "y": 182.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7777777910232544,
+                            "y": -0.66296297311782837
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -6025,12 +5663,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -6105,61 +5743,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Overlay",
-                        "source_uuid": "03b6eeef-ff9d-4702-99a6-01c598b68880",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -6178,6 +5761,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
@@ -6186,18 +5771,14 @@
                 "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
-                "Afficher DSK 2": [],
-                "Masquer DSK 2": []
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": [],
+                "libobs.show_scene_item.26": [],
+                "libobs.hide_scene_item.26": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6272,7 +5853,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -6447,38 +6028,38 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 1,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": 0.0,
+                            "y": 127.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7777777910232544,
+                            "y": -0.76481479406356812
                         },
                         "scale": {
-                            "x": 0.34427082538604736,
-                            "y": 0.34444445371627808
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.34427082538604736,
-                            "y": 0.34444445371627808
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 660.0,
+                            "y": 417.0
                         },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.2222222089767456,
+                            "y": 0.77222222089767456
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -6685,12 +6266,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -6793,14 +6374,14 @@
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": []
+                "libobs.hide_scene_item.11": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6985,7 +6566,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -7166,16 +6747,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -7288,12 +6869,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -7386,8 +6967,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.6": [],
@@ -7400,10 +6979,12 @@
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": []
+                "libobs.hide_scene_item.11": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -7420,7 +7001,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 27,
+                "id_counter": 26,
                 "items": [
                     {
                         "name": "Background TLS Moving.jpg",
@@ -7588,6 +7169,61 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Overlay NoLogo",
+                        "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 970,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_rel": {
+                            "x": 3.5555555820465088,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Last Results",
                         "source_uuid": "0c78449f-3f98-4c82-b79b-d891fe90eb91",
                         "visible": true,
@@ -7608,12 +7244,12 @@
                         "id": 10,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -7663,11 +7299,11 @@
                         "id": 11,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
+                            "x": 0.0,
                             "y": -37.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
+                            "x": -1.7777777910232544,
                             "y": -1.0685185194015503
                         },
                         "scale": {
@@ -7836,12 +7472,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -7916,61 +7552,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Overlay",
-                        "source_uuid": "03b6eeef-ff9d-4702-99a6-01c598b68880",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -7989,24 +7570,24 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": []
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": [],
+                "libobs.show_scene_item.26": [],
+                "libobs.hide_scene_item.26": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -8219,12 +7800,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -8301,7 +7882,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -8482,16 +8063,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -8592,12 +8173,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.6": [],
@@ -8609,7 +8186,11 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": []
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -8877,12 +8458,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -8959,7 +8540,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -9140,16 +8721,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -9250,14 +8831,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.13": [],
                 "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
@@ -9269,7 +8846,11 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": []
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.15": [],
+                "libobs.hide_scene_item.15": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -9482,12 +9063,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -9564,7 +9145,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -9745,16 +9326,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 10,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -9910,12 +9491,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.7": [],
@@ -9929,7 +9506,11 @@
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.26": [],
+                "libobs.hide_scene_item.26": [],
+                "libobs.show_scene_item.27": [],
+                "libobs.hide_scene_item.27": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -10279,7 +9860,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -10829,7 +10410,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -11010,16 +10591,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -11132,12 +10713,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -11230,8 +10811,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
@@ -11246,10 +10825,12 @@
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -11462,12 +11043,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -11544,7 +11125,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -11725,16 +11306,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -11835,12 +11416,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
@@ -11852,7 +11429,11 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": []
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -12065,12 +11646,12 @@
                             "y": 0.15740740299224854
                         },
                         "scale": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "scale_rel": {
-                            "x": 0.37604168057441711,
-                            "y": 0.38703703880310059
+                            "x": 0.37552082538604736,
+                            "y": 0.38796296715736389
                         },
                         "bounds": {
                             "x": 1.0,
@@ -12147,7 +11728,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -12328,16 +11909,16 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 15,
+                        "crop_bottom": 0,
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2.0,
-                            "y": 163.0
+                            "x": -2.0,
+                            "y": 180.0
                         },
                         "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -0.69814813137054443
+                            "x": -1.7814815044403076,
+                            "y": -0.66666662693023682
                         },
                         "scale": {
                             "x": 0.34427082538604736,
@@ -12438,12 +12019,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.6": [],
@@ -12455,7 +12032,11 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": []
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -13496,7 +13077,7 @@
             "versioned_id": "window_capture",
             "settings": {
                 "priority": 2,
-                "window": "TLS MAD'Ness #2255 | Entrant Details — Mozilla Firefox:MozillaWindowClass:firefox.exe"
+                "window": "Mii Brawler - Ultimate Frame Data — Mozilla Firefox:MozillaWindowClass:firefox.exe"
             },
             "mixers": 0,
             "sync": 0,
@@ -13544,27 +13125,27 @@
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
-                        "crop_left": 106,
-                        "crop_top": 193,
-                        "crop_right": 1432,
-                        "crop_bottom": 210,
+                        "crop_left": 761,
+                        "crop_top": 410,
+                        "crop_right": 761,
+                        "crop_bottom": 329,
                         "id": 1,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1635.0,
-                            "y": 545.0
+                            "x": 306.0,
+                            "y": 151.0
                         },
                         "pos_rel": {
-                            "x": 1.25,
-                            "y": 0.0092592239379882812
+                            "x": -1.2111110687255859,
+                            "y": -0.72037041187286377
                         },
                         "scale": {
-                            "x": 0.65684211254119873,
-                            "y": 0.65688073635101318
+                            "x": 1.7990074157714844,
+                            "y": 1.7993310689926147
                         },
                         "scale_rel": {
-                            "x": 0.65684211254119873,
-                            "y": 0.65688073635101318
+                            "x": 1.7990074157714844,
+                            "y": 1.7993310689926147
                         },
                         "bounds": {
                             "x": 0.0,
@@ -14544,7 +14125,7 @@
                 "local_file": "C:/Stream/TLSStream/tournamentstreamhelpertls/layout/last_results/overlay.html",
                 "undo_sname": "Last Results",
                 "width": 1920,
-                "height": 1200,
+                "height": 1080,
                 "restart_when_active": true
             },
             "mixers": 255,
@@ -15729,76 +15310,6 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "LT Zevent Black",
-            "uuid": "c66a0535-ddbe-41bf-a9cd-bfbfae002840",
-            "id": "ffmpeg_source",
-            "versioned_id": "ffmpeg_source",
-            "settings": {
-                "local_file": "C:/Stream/AssetsHorsGit/LT TLS x ZEvent Black.mov"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Play": [],
-                "MediaSource.Pause": [],
-                "MediaSource.Stop": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "LT Zevent White",
-            "uuid": "8448c1d8-0e1b-4387-9582-aae5f9f655b7",
-            "id": "ffmpeg_source",
-            "versioned_id": "ffmpeg_source",
-            "settings": {
-                "local_file": "C:/Stream/AssetsHorsGit/LT TLS x ZEvent White.mov"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Play": [],
-                "MediaSource.Pause": [],
-                "MediaSource.Stop": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "météo google",
             "uuid": "b84c92ae-2b10-4432-b932-1ff5d235c230",
             "id": "browser_source",
@@ -15953,7 +15464,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -16136,7 +15647,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.22368189692497253,
+            "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -16405,9 +15916,9 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "is_local_file": false,
+                "is_local_file": true,
                 "local_file": "C:/Stream/TLSStream/tournamentstreamhelpertls/layout/scoreboardTLS/scoreboardTLS.html",
-                "url": "http://127.0.0.1:5000/layout/scoreboardTLS_CrewBattle/scoreboardTLS.html",
+                "url": "http://192.168.1.3:5000/layout/scoreboardTLS/scoreboardTLS.html",
                 "width": 1920,
                 "height": 1080,
                 "fps": 60,
@@ -16476,7 +15987,7 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Overlay Out of Game",
+            "name": "Overlay NoLogo",
             "uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
             "id": "browser_source",
             "versioned_id": "browser_source",
@@ -17164,151 +16675,6 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Pseudo Cam Salle",
-            "uuid": "3a26547c-cd3c-477b-a5b9-8235ff35db89",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Cam Joueurs Base NE PAS UTILISER",
-                        "source_uuid": "da29e5aa-baab-45d7-9728-70d8b6aaa22d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "Recent Sets",
             "uuid": "f64fd873-4cfb-4ac6-81ba-ca7eb9492f01",
             "id": "browser_source",
@@ -17402,7 +16768,11 @@
             "id": "vlc_source",
             "versioned_id": "vlc_source",
             "settings": {
-                "playlist": [],
+                "playlist": [
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-07-04 02-50-29.mkv"
+                    }
+                ],
                 "undo_sname": "Replay",
                 "loop": false,
                 "network_caching": 2000
@@ -17776,7 +17146,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/Toulouse Last Stock/Downloads/ezgif-8f84412c5fb653-1.webp"
+                "file": "C:/Stream/TLSStream/Assets/common/Overlay/Rooskas.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -17790,265 +17160,6 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Roster Cam",
-            "uuid": "cffe8d42-c67f-4237-8692-792c8040882c",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 4,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Pseudo Cam Salle",
-                        "source_uuid": "3a26547c-cd3c-477b-a5b9-8235ff35db89",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "VS Screen Source",
-                        "source_uuid": "51f4486e-c22e-4be1-8e63-6266d3236c29",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 781,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Team Roster T1",
-                        "source_uuid": "9454f8be-56cc-42f5-a99a-21d648a7519c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 142.0,
-                            "y": 345.0
-                        },
-                        "pos_rel": {
-                            "x": -1.5148148536682129,
-                            "y": -0.3611111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Team Roster T2",
-                        "source_uuid": "5d3bd594-c0de-4e36-a41f-bd879754e0c7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1378.0,
-                            "y": 345.0
-                        },
-                        "pos_rel": {
-                            "x": 0.77407407760620117,
-                            "y": -0.3611111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": []
-            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -18209,39 +17320,13 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "SLT CLassement",
-            "uuid": "1006c149-70a4-4e12-a1e6-2cfe75ff7c12",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "C:/Users/Toulouse Last Stock/Downloads/image.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "Source média 2",
             "uuid": "e9a29869-9ec9-4d32-9e3d-86c54f5bb782",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/Toulouse Last Stock/Downloads/boom.gif",
-                "looping": false,
+                "local_file": "C:/Users/twilc/Downloads/ezgif.com-video-to-gif-converter.gif",
+                "looping": true,
                 "restart_on_activate": false
             },
             "mixers": 255,
@@ -18352,7 +17437,7 @@
                 "id_counter": 2,
                 "items": [
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": false,
                         "locked": false,
@@ -21045,73 +20130,6 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Team Roster T1",
-            "uuid": "9454f8be-56cc-42f5-a99a-21d648a7519c",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": false,
-                "url": "http://127.0.0.1:5000/layout/team_rosterTLS/team1.html",
-                "width": 400
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Team Roster T2",
-            "uuid": "5d3bd594-c0de-4e36-a41f-bd879754e0c7",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "http://127.0.0.1:5000/layout/team_rosterTLS/team2.html",
-                "width": 400
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "température",
             "uuid": "e7b90cf9-3d19-447b-acd6-764ff042a9c5",
             "id": "scene",
@@ -22129,7 +21147,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": false,
                         "locked": false,
@@ -26110,7 +25128,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -26678,12 +25696,6 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.18": [],
                 "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.8": [],
@@ -26695,7 +25707,13 @@
                 "libobs.show_scene_item.16": [],
                 "libobs.hide_scene_item.16": [],
                 "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": []
+                "libobs.hide_scene_item.17": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -27265,7 +26283,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -27925,7 +26943,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -27996,12 +27014,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": [],
-                "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.7": [],
@@ -28015,7 +27027,13 @@
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": []
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.15": [],
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -28255,7 +27273,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -28656,12 +27674,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": [],
-                "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.16": [],
@@ -28675,7 +27687,13 @@
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": []
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": [],
+                "libobs.show_scene_item.18": [],
+                "libobs.hide_scene_item.18": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -29245,7 +28263,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -29318,10 +28336,6 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.36": [],
                 "libobs.hide_scene_item.36": [],
-                "libobs.show_scene_item.37": [],
-                "libobs.hide_scene_item.37": [],
-                "libobs.show_scene_item.38": [],
-                "libobs.hide_scene_item.38": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.10": [],
@@ -29335,7 +28349,11 @@
                 "libobs.show_scene_item.21": [],
                 "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": []
+                "libobs.hide_scene_item.22": [],
+                "libobs.show_scene_item.37": [],
+                "libobs.hide_scene_item.37": [],
+                "libobs.show_scene_item.38": [],
+                "libobs.hide_scene_item.38": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -29984,18 +29002,18 @@
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": []
+                "libobs.hide_scene_item.11": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -30235,7 +29253,7 @@
                     {
                         "name": "Jeu",
                         "source_uuid": "a5fe126f-1104-4a1a-a78a-fcacb4037606",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -30618,7 +29636,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -30689,12 +29707,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.40": [],
-                "libobs.hide_scene_item.40": [],
-                "libobs.show_scene_item.42": [],
-                "libobs.hide_scene_item.42": [],
-                "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": [],
                 "libobs.show_scene_item.23": [],
                 "libobs.hide_scene_item.23": [],
                 "libobs.show_scene_item.12": [],
@@ -30710,7 +29722,13 @@
                 "libobs.show_scene_item.21": [],
                 "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": []
+                "libobs.hide_scene_item.24": [],
+                "libobs.show_scene_item.40": [],
+                "libobs.hide_scene_item.40": [],
+                "libobs.show_scene_item.41": [],
+                "libobs.hide_scene_item.41": [],
+                "libobs.show_scene_item.42": [],
+                "libobs.hide_scene_item.42": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -30786,7 +29804,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -31409,12 +30427,6 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.18": [],
                 "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.17": [],
@@ -31428,7 +30440,13 @@
                 "libobs.show_scene_item.15": [],
                 "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": []
+                "libobs.hide_scene_item.16": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -31503,7 +30521,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Out of Game",
+                        "name": "Overlay NoLogo",
                         "source_uuid": "df976f9f-2130-4170-9967-72d04a2d6ea3",
                         "visible": true,
                         "locked": false,
@@ -32126,12 +31144,6 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
                 "libobs.show_scene_item.18": [],
                 "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.7": [],
@@ -32145,7 +31157,13 @@
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": []
+                "libobs.hide_scene_item.17": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
