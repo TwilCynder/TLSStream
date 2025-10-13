@@ -1,19 +1,19 @@
 {
     "AuxAudioDevice1": {
         "prev_ver": 520093699,
-        "name": "Son Casters",
+        "name": "Casters",
         "uuid": "9028da03-2bcc-4d04-bff0-c423e88d3405",
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
             "undo_sname": "Son Casters",
-            "device_id": "{0.0.1.00000000}.{1d044a9d-c41d-4517-a8bf-118dd73dd568}",
+            "device_id": "{0.0.1.00000000}.{f46e3002-0c79-47c3-b29b-5d987336a9a4}",
             "use_device_timing": false
         },
         "mixers": 255,
         "sync": 0,
         "flags": 2,
-        "volume": 0.5026671290397644,
+        "volume": 0.31783849000930786,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -110,17 +110,17 @@
     },
     "AuxAudioDevice2": {
         "prev_ver": 520093699,
-        "name": "Switch",
-        "uuid": "c6fa6b29-8c91-422d-9b88-f74b635a133a",
+        "name": "Casque Régie",
+        "uuid": "da87a970-ed30-4b13-95b8-7c56e883f024",
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
-            "device_id": "{0.0.1.00000000}.{11281813-410b-4e23-a40f-8ddc0b10bbf6}"
+            "device_id": "{0.0.1.00000000}.{309f23d7-daa2-4173-91c5-a3d57d496a27}"
         },
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.0,
+        "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
         "muted": true,
@@ -139,18 +139,20 @@
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 2,
-        "private_settings": {},
+        "private_settings": {
+            "mixer_hidden": false
+        },
         "filters": [
             {
                 "prev_ver": 520093699,
                 "name": "Moniteur Audio",
-                "uuid": "ef281226-8e07-4100-be79-eb1ce1881933",
+                "uuid": "438c0680-abbe-4e07-ad6c-7c69e0b560b7",
                 "id": "audio_monitor",
                 "versioned_id": "audio_monitor",
                 "settings": {
-                    "deviceName": "Haut-parleurs (USB Audio CODEC )",
-                    "volume": 50.0,
-                    "device": "{0.0.0.00000000}.{8d134192-e413-4b19-b77c-6f1c5de3a9f8}"
+                    "deviceName": "Haut-parleurs (2- USB Audio CODEC )",
+                    "volume": 75.0,
+                    "device": "{0.0.0.00000000}.{731858bb-1972-44d8-85fc-78a78102cc24}"
                 },
                 "mixers": 255,
                 "sync": 0,
@@ -173,17 +175,17 @@
     },
     "AuxAudioDevice3": {
         "prev_ver": 520093699,
-        "name": "Micro Régisseur",
-        "uuid": "dc9c97cb-871c-4003-ad3c-56927e9e77ce",
+        "name": "Switch HDMI",
+        "uuid": "228322fe-7108-4d2e-9ab1-3e7da0c45202",
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
-            "device_id": "{0.0.1.00000000}.{3953c3c1-82fd-4c04-a970-339e4e99920b}"
+            "device_id": "{0.0.1.00000000}.{24f67a14-e47e-4d87-96f3-0f2578ec45a1}"
         },
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 1.0,
+        "volume": 0.12569467723369598,
         "balance": 0.5,
         "enabled": true,
         "muted": true,
@@ -201,26 +203,26 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 0,
+        "monitoring_type": 2,
         "private_settings": {},
         "filters": [
             {
                 "prev_ver": 520093699,
                 "name": "Moniteur Audio",
-                "uuid": "a3c9d5f6-1431-4c55-9244-e3f9b95c2993",
+                "uuid": "349651f4-7274-45e7-b850-64f676376c1f",
                 "id": "audio_monitor",
                 "versioned_id": "audio_monitor",
                 "settings": {
-                    "deviceName": "Haut-parleurs (USB Audio CODEC )",
-                    "volume": 69,
-                    "device": "{0.0.0.00000000}.{8d134192-e413-4b19-b77c-6f1c5de3a9f8}"
+                    "deviceName": "Haut-parleurs (2- USB Audio CODEC )",
+                    "volume": 50.0,
+                    "device": "{0.0.0.00000000}.{731858bb-1972-44d8-85fc-78a78102cc24}"
                 },
                 "mixers": 255,
                 "sync": 0,
                 "flags": 0,
                 "volume": 1.0,
                 "balance": 0.5,
-                "enabled": true,
+                "enabled": false,
                 "muted": false,
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -234,39 +236,8 @@
             }
         ]
     },
-    "AuxAudioDevice4": {
-        "prev_ver": 520093699,
-        "name": "Mic/Aux 4",
-        "uuid": "f5683525-88e3-444b-9d06-c7eb64e2481a",
-        "id": "wasapi_input_capture",
-        "versioned_id": "wasapi_input_capture",
-        "settings": {
-            "device_id": "{0.0.1.00000000}.{fb02f2c1-0ac7-4c7d-aa9c-5e58afee529a}"
-        },
-        "mixers": 255,
-        "sync": 0,
-        "flags": 0,
-        "volume": 1.0,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": false,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 2,
-        "private_settings": {}
-    },
-    "current_scene": "Cam Salle",
-    "current_program_scene": "Trio Joueurs (Casters Game)",
+    "current_scene": "Duo Joueurs Casters",
+    "current_program_scene": "Fin Bracket",
     "scene_order": [
         {
             "name": "TLS In Game"
@@ -284,13 +255,10 @@
             "name": "Trio Joueurs (Casters Game)"
         },
         {
-            "name": "Roster Cam"
-        },
-        {
             "name": "Trio Casters (Joueurs Game)"
         },
         {
-            "name": "Trio Salle (Casters Game)"
+            "name": "Trio Game (Casters Joueurs)"
         },
         {
             "name": "Trio Replay (Casters Joueurs)"
@@ -303,6 +271,9 @@
         },
         {
             "name": "Casters (Sans Scoreboard)"
+        },
+        {
+            "name": "Trio Salle (Casters Game)"
         },
         {
             "name": "Duo Joueurs Casters"
@@ -359,9 +330,6 @@
             "name": "Duo Replay Salle"
         },
         {
-            "name": "Trio Game (Casters Joueurs)"
-        },
-        {
             "name": "Trio Casters (Game Salle)"
         },
         {
@@ -404,7 +372,7 @@
             "name": "Pause"
         },
         {
-            "name": "Fin"
+            "name": "End"
         },
         {
             "name": "Fin Bracket"
@@ -461,7 +429,7 @@
             "name": "DSK FBI"
         },
         {
-            "name": "température"
+            "name": "Température"
         },
         {
             "name": "DSK Poids"
@@ -497,9 +465,6 @@
             "name": "Duo Replay MELEE"
         },
         {
-            "name": "TLS In Game 1 Cam"
-        },
-        {
             "name": "Melee Joueur + Last Results"
         },
         {
@@ -524,9 +489,6 @@
             "name": "TLS AWARDS"
         },
         {
-            "name": "TLS In Game 2v2"
-        },
-        {
             "name": "======= OLD/POUBELLE"
         },
         {
@@ -540,6 +502,15 @@
         },
         {
             "name": "DSK Zevent Black"
+        },
+        {
+            "name": "Elfo Timer"
+        },
+        {
+            "name": "DSK ANGLAIS"
+        },
+        {
+            "name": "TLS In Game 2v2"
         }
     ],
     "name": "TLS",
@@ -877,8 +848,15 @@
             }
         }
     ],
-    "saved_projectors": [],
-    "current_transition": "Stinger TLS Black",
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAABAAAAAQAABhwAAAQOAAAAAQAAACAAAAYcAAAEDgAAAAAAAAAAB4AAAAABAAAAIAAABhwAAAQO",
+            "alwaysOnTopOverridden": false
+        }
+    ],
+    "current_transition": "Move latéral droite",
     "transition_duration": 500,
     "preview_locked": false,
     "scaling_enabled": false,
@@ -945,7 +923,7 @@
                         "name": "DSK Strike"
                     },
                     {
-                        "name": "température"
+                        "name": "Température"
                     },
                     {
                         "name": "DSK SLT Classement"
@@ -955,9 +933,15 @@
                     },
                     {
                         "name": "DSK Zevent Black"
+                    },
+                    {
+                        "name": "Elfo Timer"
+                    },
+                    {
+                        "name": "DSK ANGLAIS"
                     }
                 ],
-                "scene": "",
+                "scene": "Stage Strike",
                 "null_hotkey": [
                     {
                         "alt": true,
@@ -970,7 +954,7 @@
             },
             {
                 "name": "DSK 2",
-                "transition": "",
+                "transition": "Coupure",
                 "transition_duration": 300,
                 "show_transition": "",
                 "show_transition_duration": 300,
@@ -984,6 +968,12 @@
                     },
                     {
                         "name": "DSK Overlay"
+                    },
+                    {
+                        "name": "TLS In Game"
+                    },
+                    {
+                        "name": "DSK ANGLAIS"
                     }
                 ],
                 "scene": "",
@@ -1011,7 +1001,7 @@
                 "settings": {
                     "reset_hotkey": [],
                     "source": "Timer1",
-                    "duration": 5
+                    "duration": 1
                 }
             },
             {
@@ -1540,6 +1530,36 @@
         },
         {
             "prev_ver": 520093699,
+            "name": "anglais",
+            "uuid": "72975600-0e7e-4e6e-a3be-2bbd319ce154",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "text": "CAST EN ANGLAIS (GOAL DU ZEVENT)",
+                "outline": true,
+                "bk_opacity": 0,
+                "outline_size": 20,
+                "outline_color": 4278190080
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
             "name": "Annonces",
             "uuid": "cec6a0c4-c64d-4ed5-b9a2-8468b3c689ae",
             "id": "image_source",
@@ -1710,7 +1730,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": false,
-                "text": "Bisous",
+                "text": "Bye Bye <3",
                 "font": {
                     "face": "Gobold Extra1",
                     "flags": 0,
@@ -2277,7 +2297,8 @@
                 "resolution": "1920x1080",
                 "video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#227&101a8702&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "last_video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#227&101a8702&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "frame_interval": -1,
+                "deactivate_when_not_showing": false,
+                "frame_interval": 166666,
                 "res_type": 1,
                 "active": true,
                 "hw_decode": true
@@ -2407,7 +2428,7 @@
                     {
                         "name": "Cam Joueur 2",
                         "source_uuid": "3d9a3043-0e69-4f93-b145-4b2f39d11bab",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2433,12 +2454,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2495,7 +2516,7 @@
                 "resolution": "1920x1080",
                 "video_device_id": "Cam Link Pro HDMI-2:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03402000226}",
                 "last_video_device_id": "Cam Link Pro HDMI-2:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03402000226}",
-                "frame_interval": -1,
+                "frame_interval": 166666,
                 "res_type": 1,
                 "active": true,
                 "autorotation": false,
@@ -2520,7 +2541,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {
                 "mixer_hidden": true
             }
@@ -2534,9 +2555,9 @@
             "settings": {
                 "last_resolution": "1280x720",
                 "resolution": "1280x720",
-                "video_device_id": "Cam Link Pro HDMI-3:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03403000226}",
-                "last_video_device_id": "Cam Link Pro HDMI-3:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03403000226}",
-                "frame_interval": 166666,
+                "video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_08e5&mi_00#227&7ff3426&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "last_video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_08e5&mi_00#227&7ff3426&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "frame_interval": -1,
                 "res_type": 1,
                 "active": true
             },
@@ -3152,7 +3173,7 @@
                     {
                         "name": "Cam Tel",
                         "source_uuid": "0338f724-fef3-405f-b713-e02762565a30",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": -90.0,
                         "scale_ref": {
@@ -3426,7 +3447,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?view=QuH65WE",
+                "url": "https://vdo.ninja/?view=QuH",
                 "width": 1920,
                 "height": 1080,
                 "fps": 60,
@@ -3953,8 +3974,8 @@
                 "resolution": "1920x1080",
                 "undo_uuid": "751f82fc-6792-486c-bebd-d265341563d4",
                 "use_custom_audio_device": false,
-                "video_device_id": "Cam Link Pro HDMI-4:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03404000226}",
-                "last_video_device_id": "Cam Link Pro HDMI-4:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03404000226}",
+                "video_device_id": "Cam Link Pro HDMI-1 / Multiview:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03401000226}",
+                "last_video_device_id": "Cam Link Pro HDMI-1 / Multiview:\\\\?\\pci#22ven_12ab&dev_0710&subsys_00111cfa&rev_00#226&970b1e8&0&0020020b#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c03401000226}",
                 "frame_interval": -1,
                 "res_type": 1,
                 "video_format": 0,
@@ -3984,7 +4005,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {
                 "mixer_hidden": true
             }
@@ -4547,6 +4568,98 @@
                 "libobs.push-to-talk": [],
                 "hotkey_start": [],
                 "hotkey_stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "DSK ANGLAIS",
+            "uuid": "1fb0edb5-0202-4705-ad13-774fc474e73c",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "anglais",
+                        "source_uuid": "72975600-0e7e-4e6e-a3be-2bbd319ce154",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 144.0,
+                            "y": 106.0
+                        },
+                        "pos_rel": {
+                            "x": -1.5111111402511597,
+                            "y": -0.80370372533798218
+                        },
+                        "scale": {
+                            "x": 0.39172124862670898,
+                            "y": 0.39084506034851074
+                        },
+                        "scale_rel": {
+                            "x": 0.39172124862670898,
+                            "y": 0.39084506034851074
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "Afficher DSK 1": [],
+                "Masquer DSK 1": [],
+                "Afficher DSK 2": [],
+                "Masquer DSK 2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6288,7 +6401,7 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 970,
+                        "crop_bottom": 953,
                         "id": 6,
                         "group_item_backup": false,
                         "pos": {
@@ -7934,7 +8047,7 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 0,
+                        "crop_bottom": 240,
                         "id": 27,
                         "group_item_backup": false,
                         "pos": {
@@ -12466,7 +12579,211 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Fin",
+            "name": "Elfo Timer",
+            "uuid": "ac5203bf-f3b8-4f40-aa47-1b8ef109167c",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "White",
+                        "source_uuid": "31c3e833-b1c0-4718-90ed-1854283effab",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 484,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 372.0,
+                            "y": 302.0
+                        },
+                        "pos_rel": {
+                            "x": -1.0888888835906982,
+                            "y": -0.44074076414108276
+                        },
+                        "scale": {
+                            "x": 0.59739583730697632,
+                            "y": 0.59722220897674561
+                        },
+                        "scale_rel": {
+                            "x": 0.59739583730697632,
+                            "y": 0.59722220897674561
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Timer1",
+                        "source_uuid": "3a873608-33fe-4964-a732-6db77980aed4",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 5,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 405.0,
+                            "y": 499.0
+                        },
+                        "pos_rel": {
+                            "x": -1.0277777910232544,
+                            "y": -0.075925946235656738
+                        },
+                        "scale": {
+                            "x": 1.2896995544433594,
+                            "y": 1.2890625
+                        },
+                        "scale_rel": {
+                            "x": 1.2896995544433594,
+                            "y": 1.2890625
+                        },
+                        "bounds": {
+                            "x": 1069.0,
+                            "y": 129.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.9796296358108521,
+                            "y": 0.23888888955116272
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Timer1 2",
+                        "source_uuid": "c31530c5-836c-4506-af2c-e8e15f9a5add",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 5,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 414.0,
+                            "y": 355.0
+                        },
+                        "pos_rel": {
+                            "x": -1.0111111402511597,
+                            "y": -0.34259259700775146
+                        },
+                        "scale": {
+                            "x": 1.2896995544433594,
+                            "y": 1.2890625
+                        },
+                        "scale_rel": {
+                            "x": 1.2896995544433594,
+                            "y": 1.2890625
+                        },
+                        "bounds": {
+                            "x": 1069.0,
+                            "y": 129.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.9796296358108521,
+                            "y": 0.23888888955116272
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "Afficher DSK 1": [],
+                "Masquer DSK 1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "End",
             "uuid": "8c612aac-a552-4c11-83f4-b312f65cf69e",
             "id": "scene",
             "versioned_id": "scene",
@@ -12961,7 +13278,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 11,
                 "items": [
                     {
                         "name": "Background TLS",
@@ -13184,6 +13501,61 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Brazcket",
+                        "source_uuid": "367edccc-dc49-4a8c-bd6e-752ce7320431",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 89,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 243.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.55000001192092896
+                        },
+                        "scale": {
+                            "x": 0.84427082538604736,
+                            "y": 0.84460139274597168
+                        },
+                        "scale_rel": {
+                            "x": 0.84427082538604736,
+                            "y": 0.84460139274597168
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "PopUp",
                         "source_uuid": "fcfd13a3-cb3b-41db-863c-3255f86f79a3",
                         "visible": true,
@@ -13294,8 +13666,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Brazcket",
-                        "source_uuid": "367edccc-dc49-4a8c-bd6e-752ce7320431",
+                        "name": "Composition 1.mov",
+                        "source_uuid": "14d175c5-9af2-4361-873e-1a31f3e3f0c6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -13308,26 +13680,26 @@
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
-                        "crop_top": 89,
+                        "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 10,
+                        "id": 11,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 243.0
+                            "x": 1002.0,
+                            "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.55000001192092896
+                            "x": 0.077777780592441559,
+                            "y": -1.0
                         },
                         "scale": {
-                            "x": 0.84427082538604736,
-                            "y": 0.84460139274597168
+                            "x": 0.66458332538604736,
+                            "y": 0.66481482982635498
                         },
                         "scale_rel": {
-                            "x": 0.84427082538604736,
-                            "y": 0.84460139274597168
+                            "x": 0.66458332538604736,
+                            "y": 0.66481482982635498
                         },
                         "bounds": {
                             "x": 0.0,
@@ -13371,12 +13743,14 @@
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.7": [],
                 "libobs.hide_scene_item.7": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": []
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -13459,7 +13833,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "Merci de nous avoir suivi !",
+                "text": "Thanks for watching !!!",
                 "undo_sname": "FING",
                 "undo_uuid": "e1d3ac48-dd47-47a2-b388-6eed53b54a42",
                 "font": {
@@ -13544,27 +13918,27 @@
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
-                        "crop_left": 106,
-                        "crop_top": 193,
-                        "crop_right": 1432,
-                        "crop_bottom": 210,
+                        "crop_left": 1301,
+                        "crop_top": 350,
+                        "crop_right": 237,
+                        "crop_bottom": 259,
                         "id": 1,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1635.0,
-                            "y": 545.0
+                            "x": 856.0,
+                            "y": 404.0
                         },
                         "pos_rel": {
-                            "x": 1.25,
-                            "y": 0.0092592239379882812
+                            "x": -0.19259259104728699,
+                            "y": -0.25185185670852661
                         },
                         "scale": {
-                            "x": 0.65684211254119873,
-                            "y": 0.65688073635101318
+                            "x": 0.56020945310592651,
+                            "y": 0.55916476249694824
                         },
                         "scale_rel": {
-                            "x": 0.65684211254119873,
-                            "y": 0.65688073635101318
+                            "x": 0.56020945310592651,
+                            "y": 0.55916476249694824
                         },
                         "bounds": {
                             "x": 0.0,
@@ -13978,7 +14352,7 @@
                     {
                         "name": "Cam J1 Base",
                         "source_uuid": "fdcded8a-229c-4baf-a3dd-bd00aa960276",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -14033,7 +14407,7 @@
                     {
                         "name": "Cam Joueurs Base NE PAS UTILISER",
                         "source_uuid": "da29e5aa-baab-45d7-9728-70d8b6aaa22d",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -14850,7 +15224,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 22,
+                "id_counter": 24,
                 "items": [
                     {
                         "name": "Image",
@@ -14963,338 +15337,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 750,
-                        "crop_top": 293,
-                        "crop_right": 533,
-                        "crop_bottom": 406,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 280.0,
-                            "y": 326.0
-                        },
-                        "pos_rel": {
-                            "x": -1.2592592239379883,
-                            "y": -0.39629632234573364
-                        },
-                        "scale": {
-                            "x": 0.90243899822235107,
-                            "y": 0.90294116735458374
-                        },
-                        "scale_rel": {
-                            "x": 0.90243899822235107,
-                            "y": 0.90294116735458374
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Live Reaction Test",
-                        "source_uuid": "40906ec6-b295-4e5b-9d1b-b7967444c04b",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 238.0,
-                            "y": 209.0
-                        },
-                        "pos_rel": {
-                            "x": -1.3370370864868164,
-                            "y": -0.61296296119689941
-                        },
-                        "scale": {
-                            "x": 0.37871852517127991,
-                            "y": 0.37890625
-                        },
-                        "scale_rel": {
-                            "x": 0.37871852517127991,
-                            "y": 0.37890625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Navigateur 2",
-                        "source_uuid": "aa06f1bb-6c71-4783-b074-b88a152cec10",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 1,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 100.0,
-                            "y": 285.0
-                        },
-                        "pos_rel": {
-                            "x": -1.5925925970077515,
-                            "y": -0.47222220897674561
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 433.0,
-                            "y": 244.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.80185186862945557,
-                            "y": 0.45185184478759766
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Navigateur",
-                        "source_uuid": "d37d850c-cf83-41b9-96e1-c7e949c7f38b",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 167.0,
-                            "y": 288.0
-                        },
-                        "pos_rel": {
-                            "x": -1.4685184955596924,
-                            "y": -0.46666663885116577
-                        },
-                        "scale": {
-                            "x": 0.23125000298023224,
-                            "y": 0.23148147761821747
-                        },
-                        "scale_rel": {
-                            "x": 0.23125000298023224,
-                            "y": 0.23148147761821747
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "In Game Cam Gauche",
-                        "source_uuid": "a3d9e377-a5f4-4f56-88f1-46a748661c03",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 993,
-                        "crop_bottom": 562,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 267.0,
-                            "y": 324.0
-                        },
-                        "pos_rel": {
-                            "x": -1.2833333015441895,
-                            "y": -0.39999997615814209
-                        },
-                        "scale": {
-                            "x": 0.66562497615814209,
-                            "y": 0.6657407283782959
-                        },
-                        "scale_rel": {
-                            "x": 0.66562497615814209,
-                            "y": 0.6657407283782959
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "CamCasters",
-                        "source_uuid": "7a8dac49-9a1a-45bc-bafb-f05a65314e45",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 9,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": -3694.0,
-                            "y": 195.0
-                        },
-                        "pos_rel": {
-                            "x": -8.6185188293457031,
-                            "y": -0.6388888955116272
-                        },
-                        "scale": {
-                            "x": 3.0947916507720947,
-                            "y": 0.45185184478759766
-                        },
-                        "scale_rel": {
-                            "x": 3.0947916507720947,
-                            "y": 0.45185184478759766
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
+                        "name": "Cam J1 Base",
+                        "source_uuid": "fdcded8a-229c-4baf-a3dd-bd00aa960276",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -15306,27 +15350,27 @@
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
-                        "crop_left": 535,
-                        "crop_top": 711,
-                        "crop_right": 1007,
-                        "crop_bottom": 161,
-                        "id": 10,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 23,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 277.0,
+                            "x": 281.0,
                             "y": 340.0
                         },
                         "pos_rel": {
-                            "x": -1.2648148536682129,
+                            "x": -1.2574074268341064,
                             "y": -0.37037038803100586
                         },
                         "scale": {
-                            "x": 1.575657844543457,
-                            "y": 1.576923131942749
+                            "x": 0.30520832538604736,
+                            "y": 0.3055555522441864
                         },
                         "scale_rel": {
-                            "x": 1.575657844543457,
-                            "y": 1.576923131942749
+                            "x": 0.30520832538604736,
+                            "y": 0.3055555522441864
                         },
                         "bounds": {
                             "x": 0.0,
@@ -15348,8 +15392,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
+                        "name": "Cam J1 Base",
+                        "source_uuid": "fdcded8a-229c-4baf-a3dd-bd00aa960276",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -15361,27 +15405,27 @@
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
-                        "crop_left": 535,
-                        "crop_top": 711,
-                        "crop_right": 1007,
-                        "crop_bottom": 161,
-                        "id": 22,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 24,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 417.0,
-                            "y": 223.0
+                            "x": 383.0,
+                            "y": 204.0
                         },
                         "pos_rel": {
-                            "x": -1.0055555105209351,
-                            "y": -0.58703702688217163
+                            "x": -1.0685185194015503,
+                            "y": -0.6222221851348877
                         },
                         "scale": {
-                            "x": 0.44179895520210266,
-                            "y": 0.44230768084526062
+                            "x": 0.11406250298023224,
+                            "y": 0.11388888955116272
                         },
                         "scale_rel": {
-                            "x": 0.44179895520210266,
-                            "y": 0.44230768084526062
+                            "x": 0.11406250298023224,
+                            "y": 0.11388888955116272
                         },
                         "bounds": {
                             "x": 0.0,
@@ -15421,61 +15465,13 @@
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.7": [],
                 "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": [],
+                "libobs.show_scene_item.23": [],
+                "libobs.hide_scene_item.23": [],
+                "libobs.show_scene_item.24": [],
+                "libobs.hide_scene_item.24": [],
                 "Afficher DSK 1": [],
                 "Masquer DSK 1": []
             },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Live Reaction Test",
-            "uuid": "40906ec6-b295-4e5b-9d1b-b7967444c04b",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
-            "settings": {
-                "outline": true,
-                "text": "Live venue Reaction",
-                "undo_sname": "Live Reaction Test",
-                "font": {
-                    "face": "Gobold Extra1",
-                    "flags": 0,
-                    "size": 256,
-                    "style": "Regular"
-                },
-                "color": 4278190080,
-                "outline_size": 12
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -16093,32 +16089,6 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "mid set coaching",
-            "uuid": "c8a36bdd-0d19-4470-a9b3-ccece6a6a803",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "mid set coaching ?"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "Musique",
             "uuid": "92c6ae8b-2962-4dd8-9e3a-2157d1bcde6c",
             "id": "vlc_source",
@@ -16130,13 +16100,37 @@
                         "uuid": "1046ff0f-031e-4937-a95d-99f2d9499882",
                         "selected": false,
                         "hidden": false
+                    },
+                    {
+                        "value": "C:/Stream/AssetsHorsGit/musique/TEKKEN 8 OST Character Customization Be Stylish.mp3",
+                        "uuid": "4ce9cae4-bda4-4757-b945-b796f8c57efb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "C:/Stream/AssetsHorsGit/musique/Its Going Down Now.mp3",
+                        "uuid": "c5c52f6e-c8ad-4eb1-bbdf-63e21ded9d3d",
+                        "selected": true,
+                        "hidden": false
+                    },
+                    {
+                        "value": "C:/Stream/AssetsHorsGit/musique/NEW DANGANRONPA V3 OST- V3 SCRUM (SCRUM DEBATE).mp3",
+                        "uuid": "bdd0d39f-5058-4433-8bef-9a6c4f245277",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "C:/Stream/AssetsHorsGit/musique/TEKKEN 8 OST Gallery Time Will Reveal.mp3",
+                        "uuid": "1b27e9c7-8706-45cc-bcb7-4ccd41b291cd",
+                        "selected": false,
+                        "hidden": false
                     }
                 ]
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.22368189692497253,
+            "volume": 0.41508197784423828,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -16262,91 +16256,17 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Navigateur",
-            "uuid": "d37d850c-cf83-41b9-96e1-c7e949c7f38b",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://vdo.ninja/?view=M4gywkX",
-                "width": 1920,
-                "height": 1080,
-                "fps": 60,
-                "fps_custom": true,
-                "shutdown": false
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Navigateur 2",
-            "uuid": "aa06f1bb-6c71-4783-b074-b88a152cec10",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "undo_sname": "Navigateur 2",
-                "url": "https://vdo.ninja/?view=ukRYxDc&label=Cam_Joueur_Droite",
-                "width": 1920,
-                "height": 1080,
-                "fps_custom": true,
-                "shutdown": false
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "NDI Cam Salle",
             "uuid": "38357435-466a-4306-9eed-39b863ef266b",
             "id": "ndi_source",
             "versioned_id": "ndi_source",
             "settings": {
-                "latency": 0,
-                "ndi_audio": false,
-                "ndi_bw_mode": 1,
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "REDMI-NOTE-8-PRO (NDI HX Camera)",
-                "undo_uuid": "c5c2d4e5-c407-4a75-986d-c60469fe058b"
+                "undo_uuid": "c5c2d4e5-c407-4a75-986d-c60469fe058b",
+                "ndi_bw_mode": 1,
+                "latency": 0,
+                "ndi_audio": false
             },
             "mixers": 255,
             "sync": 0,
@@ -16361,9 +16281,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
+                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
+                "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -16407,7 +16327,7 @@
             "settings": {
                 "is_local_file": false,
                 "local_file": "C:/Stream/TLSStream/tournamentstreamhelpertls/layout/scoreboardTLS/scoreboardTLS.html",
-                "url": "http://127.0.0.1:5000/layout/scoreboardTLS_CrewBattle/scoreboardTLS.html",
+                "url": "http://127.0.0.1:5000/layout/scoreboardTLS/scoreboardTLS.html",
                 "width": 1920,
                 "height": 1080,
                 "fps": 60,
@@ -17134,7 +17054,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "outline": true,
-                "text": "LÂCHE TON PRIME",
+                "text": "DROP YOUR PRIME",
                 "font": {
                     "face": "Arial Black",
                     "flags": 1,
@@ -17346,6 +17266,75 @@
         },
         {
             "prev_ver": 520093699,
+            "name": "Replay",
+            "uuid": "48c89fc2-1f66-47a3-a69c-c109e5bd2b33",
+            "id": "vlc_source",
+            "versioned_id": "vlc_source",
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-07-23.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-07-57.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-09-10.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-09-47.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-10-36.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-11-58.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-12-37.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-13-11.mkv"
+                    },
+                    {
+                        "value": "C:/Users/Toulouse Last Stock/Videos/Replay 2025-10-14 00-13-55.mkv"
+                    }
+                ],
+                "undo_sname": "Replay",
+                "loop": false,
+                "network_caching": 2000
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 0.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "VLCSource.PlayPause": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {
+                "mixer_hidden": true
+            }
+        },
+        {
+            "prev_ver": 520093699,
             "name": "REPLAY",
             "uuid": "038988ba-a2d6-4f9a-a202-8f703b86d6d1",
             "id": "text_gdiplus",
@@ -17394,47 +17383,6 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Replay",
-            "uuid": "48c89fc2-1f66-47a3-a69c-c109e5bd2b33",
-            "id": "vlc_source",
-            "versioned_id": "vlc_source",
-            "settings": {
-                "playlist": [],
-                "undo_sname": "Replay",
-                "loop": false,
-                "network_caching": 2000
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": true,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "VLCSource.PlayPause": [],
-                "VLCSource.Restart": [],
-                "VLCSource.Stop": [],
-                "VLCSource.PlaylistNext": [],
-                "VLCSource.PlaylistPrev": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {
-                "mixer_hidden": true
-            }
         },
         {
             "prev_ver": 520093699,
@@ -17790,300 +17738,6 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Roster Cam",
-            "uuid": "cffe8d42-c67f-4237-8692-792c8040882c",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 4,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Pseudo Cam Salle",
-                        "source_uuid": "3a26547c-cd3c-477b-a5b9-8235ff35db89",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "VS Screen Source",
-                        "source_uuid": "51f4486e-c22e-4be1-8e63-6266d3236c29",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 781,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Team Roster T1",
-                        "source_uuid": "9454f8be-56cc-42f5-a99a-21d648a7519c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 142.0,
-                            "y": 345.0
-                        },
-                        "pos_rel": {
-                            "x": -1.5148148536682129,
-                            "y": -0.3611111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Team Roster T2",
-                        "source_uuid": "5d3bd594-c0de-4e36-a41f-bd879754e0c7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1378.0,
-                            "y": 345.0
-                        },
-                        "pos_rel": {
-                            "x": 0.77407407760620117,
-                            "y": -0.3611111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Scoreboard Individuel",
-            "uuid": "752e4c71-8a2a-47de-8449-7f95f807b914",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": true,
-                "local_file": "C:/Stream/TLSStream/tournamentstreamhelpertls/layout/bracketTLS/index.html",
-                "width": 1920,
-                "height": 1080
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -21045,74 +20699,7 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Team Roster T1",
-            "uuid": "9454f8be-56cc-42f5-a99a-21d648a7519c",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": false,
-                "url": "http://127.0.0.1:5000/layout/team_rosterTLS/team1.html",
-                "width": 400
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Team Roster T2",
-            "uuid": "5d3bd594-c0de-4e36-a41f-bd879754e0c7",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "http://127.0.0.1:5000/layout/team_rosterTLS/team2.html",
-                "width": 400
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "température",
+            "name": "Température",
             "uuid": "e7b90cf9-3d19-447b-acd6-764ff042a9c5",
             "id": "scene",
             "versioned_id": "scene",
@@ -21839,6 +21426,41 @@
             "settings": {
                 "extents": false,
                 "text": "Starting soon (tm)",
+                "font": {
+                    "face": "Gobold Extra1",
+                    "flags": 0,
+                    "size": 300,
+                    "style": "Regular"
+                },
+                "color": 4286709821,
+                "extents_cx": 300
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "Timer1 2",
+            "uuid": "c31530c5-836c-4506-af2c-e8e15f9a5add",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "extents": false,
+                "text": "Elfo a fini de fumer dans",
                 "font": {
                     "face": "Gobold Extra1",
                     "flags": 0,
@@ -22917,7 +22539,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 51,
+                "id_counter": 52,
                 "items": [
                     {
                         "name": "Jeu",
@@ -23064,61 +22686,6 @@
                         "scale_rel": {
                             "x": 0.15833333134651184,
                             "y": 0.15833333134651184
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 40,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1572.0,
-                            "y": 895.0
-                        },
-                        "pos_rel": {
-                            "x": 1.1333333253860474,
-                            "y": 0.65740740299224854
-                        },
-                        "scale": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "scale_rel": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
                         },
                         "bounds": {
                             "x": 0.0,
@@ -23358,61 +22925,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "mid set coaching",
-                        "source_uuid": "c8a36bdd-0d19-4470-a9b3-ccece6a6a803",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 51,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 828.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": 0.53333330154418945
-                        },
-                        "scale": {
-                            "x": 0.21741397678852081,
-                            "y": 0.21590909361839294
-                        },
-                        "scale_rel": {
-                            "x": 0.21741397678852081,
-                            "y": 0.21590909361839294
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -23435,8 +22947,6 @@
                 "libobs.hide_scene_item.23": [],
                 "libobs.show_scene_item.22": [],
                 "libobs.hide_scene_item.22": [],
-                "libobs.show_scene_item.40": [],
-                "libobs.hide_scene_item.40": [],
                 "libobs.show_scene_item.24": [],
                 "libobs.hide_scene_item.24": [],
                 "libobs.show_scene_item.26": [],
@@ -23445,8 +22955,8 @@
                 "libobs.hide_scene_item.27": [],
                 "libobs.show_scene_item.32": [],
                 "libobs.hide_scene_item.32": [],
-                "libobs.show_scene_item.51": [],
-                "libobs.hide_scene_item.51": []
+                "Afficher DSK 2": [],
+                "Masquer DSK 2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -23458,502 +22968,13 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "TLS In Game 1 Cam",
-            "uuid": "0190ae8a-3d3b-48d2-a7dd-1f9b6a4d704c",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "custom_size": false,
-                "id_counter": 16,
-                "items": [
-                    {
-                        "name": "Jeu",
-                        "source_uuid": "a5fe126f-1104-4a1a-a78a-fcacb4037606",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 1,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_rel": {
-                            "x": 3.5555555820465088,
-                            "y": 2.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "In Game Cam Droite",
-                        "source_uuid": "d7321883-d3a8-4196-a41a-0fb053b9efbe",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 774.0,
-                            "y": 889.0
-                        },
-                        "pos_rel": {
-                            "x": -0.34444445371627808,
-                            "y": 0.64629626274108887
-                        },
-                        "scale": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "scale_rel": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "In Game Cam Gauche",
-                        "source_uuid": "a3d9e377-a5f4-4f56-88f1-46a748661c03",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 774.0,
-                            "y": 889.0
-                        },
-                        "pos_rel": {
-                            "x": -0.34444445371627808,
-                            "y": 0.64629626274108887
-                        },
-                        "scale": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "scale_rel": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1572.0,
-                            "y": 895.0
-                        },
-                        "pos_rel": {
-                            "x": 1.1333333253860474,
-                            "y": 0.65740740299224854
-                        },
-                        "scale": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "scale_rel": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "PopUp",
-                        "source_uuid": "fcfd13a3-cb3b-41db-863c-3255f86f79a3",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 1,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_rel": {
-                            "x": 3.5555555820465088,
-                            "y": 2.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "cadre cam jaune",
-                        "source_uuid": "04c9f02a-067b-42df-80bf-aa8e7e855bf8",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 731.0,
-                            "y": 866.0
-                        },
-                        "pos_rel": {
-                            "x": -0.42407408356666565,
-                            "y": 0.60370373725891113
-                        },
-                        "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
-                        },
-                        "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
-                        },
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "cadre cam violet",
-                        "source_uuid": "f9170b0f-f2b9-4462-831e-dadb9b2f023f",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 384.0,
-                            "y": 865.0
-                        },
-                        "pos_rel": {
-                            "x": -1.0666667222976685,
-                            "y": 0.60185182094573975
-                        },
-                        "scale": {
-                            "x": -0.20000000298023224,
-                            "y": 0.20000000298023224
-                        },
-                        "scale_rel": {
-                            "x": -0.20000000298023224,
-                            "y": 0.20000000298023224
-                        },
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Overlay",
-                        "source_uuid": "03b6eeef-ff9d-4702-99a6-01c598b68880",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 244,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {
-                "transition_duration": 500
-            }
-        },
-        {
-            "prev_ver": 520093699,
             "name": "TLS In Game 2v2",
             "uuid": "0bd30704-b116-4826-b280-2d4d602cacd7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 21,
+                "id_counter": 25,
                 "items": [
                     {
                         "name": "Jeu",
@@ -24013,7 +23034,7 @@
                     {
                         "name": "Carré Jaune",
                         "source_uuid": "371f42c4-fe36-4ea8-92d1-0051b37c4d02",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -24068,7 +23089,7 @@
                     {
                         "name": "Carré Jaune",
                         "source_uuid": "371f42c4-fe36-4ea8-92d1-0051b37c4d02",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -24123,7 +23144,7 @@
                     {
                         "name": "In Game Cam Droite",
                         "source_uuid": "d7321883-d3a8-4196-a41a-0fb053b9efbe",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -24178,7 +23199,7 @@
                     {
                         "name": "In Game Cam Gauche",
                         "source_uuid": "a3d9e377-a5f4-4f56-88f1-46a748661c03",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -24306,67 +23327,12 @@
                         "id": 7,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 12.0,
+                            "x": 17.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7555555105209351,
+                            "x": -1.7462962865829468,
                             "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Scoreboard Individuel",
-                        "source_uuid": "752e4c71-8a2a-47de-8449-7f95f807b914",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 233,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 233.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.56851851940155029
                         },
                         "scale": {
                             "x": 1.0,
@@ -24398,7 +23364,7 @@
                     {
                         "name": "Jeu",
                         "source_uuid": "a5fe126f-1104-4a1a-a78a-fcacb4037606",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -24449,6 +23415,226 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "In Game Cam Gauche",
+                        "source_uuid": "a3d9e377-a5f4-4f56-88f1-46a748661c03",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 24,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 18.0,
+                            "y": 13.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7444444894790649,
+                            "y": -0.97592592239379883
+                        },
+                        "scale": {
+                            "x": 0.15833333134651184,
+                            "y": 0.15833333134651184
+                        },
+                        "scale_rel": {
+                            "x": 0.15833333134651184,
+                            "y": 0.15833333134651184
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "In Game Cam Droite",
+                        "source_uuid": "d7321883-d3a8-4196-a41a-0fb053b9efbe",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 25,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1595.0,
+                            "y": 18.0
+                        },
+                        "pos_rel": {
+                            "x": 1.1759259700775146,
+                            "y": -0.96666663885116577
+                        },
+                        "scale": {
+                            "x": 0.15937499701976776,
+                            "y": 0.15925925970077515
+                        },
+                        "scale_rel": {
+                            "x": 0.15937499701976776,
+                            "y": 0.15925925970077515
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "cadre cam violet",
+                        "source_uuid": "f9170b0f-f2b9-4462-831e-dadb9b2f023f",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 22,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 363.0,
+                            "y": -7.0
+                        },
+                        "pos_rel": {
+                            "x": -1.105555534362793,
+                            "y": -1.0129629373550415
+                        },
+                        "scale": {
+                            "x": -0.20000000298023224,
+                            "y": 0.20000000298023224
+                        },
+                        "scale_rel": {
+                            "x": -0.20000000298023224,
+                            "y": 0.20000000298023224
+                        },
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "cadre cam jaune",
+                        "source_uuid": "04c9f02a-067b-42df-80bf-aa8e7e855bf8",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 23,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1558.0,
+                            "y": -7.0
+                        },
+                        "pos_rel": {
+                            "x": 1.1074074506759644,
+                            "y": -1.0129629373550415
+                        },
+                        "scale": {
+                            "x": 0.20000000298023224,
+                            "y": 0.20000000298023224
+                        },
+                        "scale_rel": {
+                            "x": 0.20000000298023224,
+                            "y": 0.20000000298023224
+                        },
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -24479,10 +23665,16 @@
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.7": [],
                 "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.24": [],
+                "libobs.hide_scene_item.24": [],
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": [],
+                "libobs.show_scene_item.22": [],
+                "libobs.hide_scene_item.22": [],
+                "libobs.show_scene_item.23": [],
+                "libobs.hide_scene_item.23": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -25641,61 +24833,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Cam Salle",
-                        "source_uuid": "507ede80-c39b-4b10-a441-df0ac6cafba7",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1572.0,
-                            "y": 895.0
-                        },
-                        "pos_rel": {
-                            "x": 1.1333333253860474,
-                            "y": 0.65740740299224854
-                        },
-                        "scale": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "scale_rel": {
-                            "x": 0.15937499701976776,
-                            "y": 0.15925925970077515
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "PopUp",
                         "source_uuid": "fcfd13a3-cb3b-41db-863c-3255f86f79a3",
                         "visible": true,
@@ -25936,8 +25073,6 @@
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
@@ -26712,7 +25847,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 35,
+                "id_counter": 39,
                 "items": [
                     {
                         "name": "Background TLS Moving.jpg",
@@ -26842,15 +25977,15 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 34,
+                        "id": 38,
                         "group_item_backup": false,
                         "pos": {
                             "x": 56.0,
-                            "y": 225.0
+                            "y": 581.0
                         },
                         "pos_rel": {
                             "x": -1.6740740537643433,
-                            "y": -0.58333337306976318
+                            "y": 0.075925946235656738
                         },
                         "scale": {
                             "x": 0.29479166865348816,
@@ -26897,15 +26032,15 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 35,
+                        "id": 39,
                         "group_item_backup": false,
                         "pos": {
                             "x": 56.0,
-                            "y": 581.0
+                            "y": 225.0
                         },
                         "pos_rel": {
                             "x": -1.6740740537643433,
-                            "y": 0.075925946235656738
+                            "y": -0.58333337306976318
                         },
                         "scale": {
                             "x": 0.29479166865348816,
@@ -26969,6 +26104,61 @@
                         "scale_rel": {
                             "x": 0.28020831942558289,
                             "y": 0.28055554628372192
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "In Game Cam Droite",
+                        "source_uuid": "d7321883-d3a8-4196-a41a-0fb053b9efbe",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 37,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 70.0,
+                            "y": 596.0
+                        },
+                        "pos_rel": {
+                            "x": -1.6481481790542603,
+                            "y": 0.10370373725891113
+                        },
+                        "scale": {
+                            "x": 0.28125,
+                            "y": 0.28148147463798523
+                        },
+                        "scale_rel": {
+                            "x": 0.28125,
+                            "y": 0.28148147463798523
                         },
                         "bounds": {
                             "x": 0.0,
@@ -27231,11 +26421,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": -40.0
+                            "y": 0.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -1.0740740299224854
+                            "y": -1.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -27338,12 +26528,14 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.33": [],
                 "libobs.hide_scene_item.33": [],
-                "libobs.show_scene_item.34": [],
-                "libobs.hide_scene_item.34": [],
-                "libobs.show_scene_item.35": [],
-                "libobs.hide_scene_item.35": [],
+                "libobs.show_scene_item.38": [],
+                "libobs.hide_scene_item.38": [],
+                "libobs.show_scene_item.39": [],
+                "libobs.hide_scene_item.39": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.37": [],
+                "libobs.hide_scene_item.37": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.17": [],
@@ -27372,7 +26564,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 16,
+                "id_counter": 18,
                 "items": [
                     {
                         "name": "Background TLS Moving.jpg",
@@ -27502,7 +26694,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 15,
+                        "id": 17,
                         "group_item_backup": false,
                         "pos": {
                             "x": 56.0,
@@ -27557,7 +26749,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 16,
+                        "id": 18,
                         "group_item_backup": false,
                         "pos": {
                             "x": 56.0,
@@ -27998,10 +27190,10 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": [],
-                "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": [],
+                "libobs.show_scene_item.18": [],
+                "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.7": [],
@@ -32381,7 +31573,8 @@
                 "undo_sname": "VS Screen NOCHARS",
                 "url": "http://192.168.1.3:5000/layout/versus_screenTLS/index_nochars.html",
                 "width": 1920,
-                "height": 1080
+                "height": 1080,
+                "shutdown": true
             },
             "mixers": 255,
             "sync": 0,
@@ -34095,6 +33288,30 @@
             "private_settings": {
                 "transition_duration": 300
             }
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "White",
+            "uuid": "31c3e833-b1c0-4718-90ed-1854283effab",
+            "id": "color_source",
+            "versioned_id": "color_source_v3",
+            "settings": {},
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         }
     ]
 }
