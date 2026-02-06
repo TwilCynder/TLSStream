@@ -423,9 +423,9 @@ async function getData(scInfo) {
 					{x: pMove},
 					{x: 0, opacity: 1, ease: "power2.out", duration: fadeInTime});
 				
-				fadeOut("#bestOf", () => {
+				fadeOut(".bestof", () => {
 					document.getElementById('bestOf').textContent = "First to ";
-					fadeIn("#bestOf");
+					fadeIn(".bestof");
 				});
 			} else {
 				gsap.to('#win3P1',
@@ -433,9 +433,9 @@ async function getData(scInfo) {
 				gsap.to('#win3P2',
 					{x: pMove, opacity: 0, ease: "power2.in", duration: fadeInTime});
 
-				fadeOut("#bestOf", () => {
+				fadeOut(".bestof", () => {
 					document.getElementById('bestOf').textContent = "Best of ";
-					fadeIn("#bestOf");
+					fadeIn(".bestof");
 				});
 			}
 			bestOfPrev = bestOf;
