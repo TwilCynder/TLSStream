@@ -11,49 +11,78 @@ Note : je pars du principe qu'on utilise la table de mixage, mais on peut aussi 
 
 /!\ Si vous faites le rangement, lisez bien la partie dédiée plus bas svp !
 
-La première chose à faire est le choix du PC. Pour rappel, on a 2 PC fixes, dont un petit et très facile à transporter (boite orange dans la valise grise) et une grosse tour (rangée dans son carton). Je recommande la tour car elle marche simplement mieux, mais si vous vous sentez pas de la bouger (elle pèse un peu), le petit PC marche.
+#### A savoir sur le matériel
+Terminologie des prises et câbles 
+- Prise **RCA** : les prises rondes blanc/rouge  
+  ![](./assets-guide/rca.png)
+- Attention à la différence entre DisplayPort (**DP**) et **HDMI**  
+  ![](./assets-guide/video.png)
 
+En branchant les HDMI vous allez peut être manquer de câbles longs : n'oubliez pas d'utiliser les deux rallonges HDMI (femelle/mâle)
+
+#### Déroulement
 
 - On commence par installer les tables
-  - Au MAD, c'est une petite table devant le canapé des casters, une grande juste derrière pour les joueurs, une grande table sur le côté du canapé pour la régie, et une petite entre régie et joueurs (pour la table de mixage)
-- On amène l'électricité au setup régie, au MAD on fait passer une rallonge avec enrouleur derrière les canapés. 
-- On sort le PC, et on branche son alim (pour le petit elle se trouve dans la valide grise, c'est le *gros* transfo)
-- On place les 5 écrans et branche leurs alims
+  - Au délirium, en général on utilise la table basse entre 2 canapés comme table casters, une table derrière le canapé des casters (sous la grande télé) comme table régie, et une table supplémentaire à côté, contre le mur, comme table joueurs.
+  A noter : les joueur.euses vont passer entre le mur et la table côté setups (côté opposé à la régie) pour s'installer : il est donc important de ne laisser trainer aucun câble dans cet espace (notament l'ethernet, qui vient de ce côté)
+- On amène l'électricité, au délirium on utilise 
+  - Une rallonge branchée à une prise murale sous la télé pour la table joueurs
+  - La prise juste à côté directement pour la table régie (on peut y brancher une multiprise directement)
+  - La table caster a aussi une prise murale juste à côté
+- On sort le PC , et on branche son alim. L'antenne wi-fi qui traine parfois dans le carton du PC n'est pas nécessaire
+- On place les 5 écrans, on branche leurs alims et on les connecte au PC
   - Les deux écrans AOC (sac intersport) pour les joueurs
-  - Pour la régie (attention quand vous branchez les écrans au gros PC via HDMI, il y a une ligne de 4 prises HDMI sur fond noir, ce ne sont PAS les sorties vidéo, il faut regarder un peu plus haut)
-    - Avec le petit PC : on met le Viewsonic (TLS View 1) branché en DisplayPort au PC, et le TLS Samsung 4 branché en HDMI.
-    - Avec le gros PC : on met le Viewsonic (TLS View 1) et un autre écran disponant d'un port DisplayPort (faut voir avec les TO). On les branche en displayport au PC. Dans cette disposition on n'aura pas besoin du TLS Samsung 4 donc penser à le proposer aux TO pour les setups
-  - Pour les casters on sort l'écran TLS Samsung 3.
-    - Si pas de projecteur, on le branche direct au PC en HDMI
-    - Si on veut brancher un projecteur, déjà faut s'assurer d'avoir un câble HDMI assez long, et surtout il faut sortir le splitter HDMI **2 sorties** (dans la boite blanche et bleu foncé). On branche alors l'écran des casters à l'une des sorties du splitter, et le projecteur à l'autre sortie, puis l'entrée du splitter à la sortie HDMI du PC.
-- Si on est sur le petit PC, on branche le HUB USB au PC (ce n'est PAS la boite avec marqué Hub USB), c'est le carton rectangulaire tout blanc
-- On branche en USB (les * indique les périphériques à brancher directement au PC et pas au hub si y en a un)
-  - * Si on est sur le petit PC, la carte de capture (elle se trouve dans une boite transparente dans la valise grise). Si on est sur le gros PC pas besoin de carte de capture !
-  - * La Logi Stream Cam (dans une autre boite transparente avec les autres cams) via usb c (y a bien une prise USB-C sur le PC)
-  - Une des cams USB noires, qu'on va utiliser comme cam joueurs (utiliser une rallonge USB si trop loin de la régie)
-  - La souris et le clavier
+  - Pour la régie :  
+    - L'écran Viewsonic (TLS View 1)
+    - Un des 2 écrans samsung
+  - Pour les casters, le 2ème écran samsung
+- On branche les écrans côté régie : 
+  - ⚠️ Attention à bien repérer les sorties vidéo du PC, il y a une ligne de 4 HDMIs noirs en bas, ce ne sont PAS les sorties. Les sorties c'est la ligne avec 3 prises DP et 1 HDMI
+  - On commence par brancher à 2 des sorties DP du PC les adaptateurs DP/HDMI : ce sont des petits adaptateurs avec une prise DP mâle et HDMI femelle ; on les trouve soit dans une des boites transparentes, soit dans le filet de la paroi en tissue de la valise câbles
+  - On branche l'écran View  de la régie en DP directement au PC
+  - On branche l'écran Samsung de la régie à un des adaptateurs
+  - On branche l'écran Samsung du cast à l'autre adaptateur (un câble HDMI long est peut être nécessaire pour celui là)
+  - Si il y a un projecteur (au délirium c'est la grande télé), on le branche en HDMI à la sortie HDMI du PC
+- On sort les caméras : elles sont toutes dans la même boite transparente
+- On branche en USB 
+  - La Logi Stream Cam via usb c (il y a bien une prise USB C sur le PC, ne pas hésiter à utiliser la rallonge USB C) placée sur l'écran casters
+  - Une des cams USB noires, qu'on va utiliser comme cam joueurs (là aussi ne pas hésiter à utiliser les rallonges USB)
+  - La souris et le clavier (se trouvent dans un sac cabas à part)
 - On s'occupe ensuite des HDMIs pour le jeu : 
-  - On sort le splitter 4 sortie, et on branche son alim
+  - On sort le splitter 4 sortie (boite en carton blanche), on branche son alim et on le pose sur la table joueurs
   - On branche la sortie HDMI de la switch à l'entrée du splitter
   - On branche les écrans joueurs à 2 sorties du splitter
-  - On branche une 3ème sortie du splitter à l'entrée (in) de la carte de capture. Si on est sur le gros PC pas de carte de capture, les 4 prises HDMI sur fond noir tout en bas de l'arrière du PC font office de carte de capture.
+  - On branche une 3ème sortie du splitter à l'entrée vidéo du PC : c'est le premier HDMI de la ligne en bas du PC
 - On sort la table de mixage (valise métalique noire) ou la carte son (boite en carton focusrite). Il est recommandé d'utiliser la table de mixage (c'est pas si compliqué vraiment promis) car la carte son a du mal à tenir tout le stream.
-  - Dans tous les cas, on branche en USB au PC avec le câble USB qui se trouve dans la boite/valise
+  - Dans tous les cas, on branche en USB au PC avec le câble USB qui se trouve dans la boite/valise. 
   - Pour la table de mixage, il faut sortir son alim (dans la valise également)
+- On sort l'ampli (petit carton couleur carton), on le pose sur le setup joueurs, on branche son alim ; on branche le câble RCA/petit jack qui se trouve dans le carton à la sortie jack de l'écran (la prise est *tout au bout* de la ligne de prises de l'écran, attention y a une autre prise jack juste avant qui n'est pas bonne !) et à l'entrée RCA de l'ampli. Cet ampli peut être utilisé par les joueur.euses pour récupérer le son du jeu (❌iels ne doivent PAS se brancher sur la switch❌)
 - On sort les casque micro, qui se trouvent dans des housses noires
   - Dans chaque housse se trouve un casque et un câble séparés, une vis (dans la pochette au font de la housse), et un splitter jack (dans 1 des 2)
   - On commence par brancher la prise carrée au bout du câble au casque, puis une fois que la prise est bien insérée on tourne la vis dans le trou au niveau de la prise (pour maintenir le câble)
+  - On branche les jack des deux casques au splitter jack qui se trouvait dans une des 2 housses
   - Si on est sur la carte son (le boitier rouge), on branche le splitter dans la prise jack en bas à droite de la carte son. Puis, pour chaque casque, on branche sa prise jack, et l'autre embout (XLR) à la prise correspondante sur l'avant de la carte son.
-  - Si on est sur la table de mixage, les grosses prises des casques (XLR) vont dans les prises tout en haut de la table (utiliser la 2ème et la 3ème). Le splitter se branche dans la prise jack en bas à droite de la partie supérieure (marquée "Phones")
+  - Si on est sur la table de mixage, les grosses prises des casques (XLR) vont dans les prises tout en haut de la table (utiliser la 2ème et la 3ème). Le splitter jack se branche dans la prise jack en bas à droite de la partie supérieure (marquée "Phones"). 
+- Si on est sur la table de mixage, on branche l'ampli du son du jeu à la table de mixage : on utilise le câble avec d'un côté une prise petit jack et de l'autre deux gros jack
+  ![](./assets-guide/xenyx.png)
 - On allume la table de mixage le cas échéant (switch juste à côté de l'alim, attention à pas allumer l'autre switch)
-- On branche le cable ethernet de la box au PC. En général il vaut mieux utiliser le gros enrouleur rouge. Au MAD, on fait passer le câble derrière les canapés. 
-- Pour le casque régie il est sans fil, dans sa boite il y a une petite clé USB à brancher sur un port USB du PC ; il faut l'allumer avec le bouton à gauche ; il peut être bon de le mettre à charger (cable USB-C) avant le début du tournoi
-- On sort aussi l'ampli jack (le truc sur lequel les joueurs doivent brancher leurs casques, dans un carton marron) : on n'oublie pas son bloc chargeur, et on met le jack sur un des deux écrans. 
-
-Si disponible on sort aussi la tablette pour les bans, et on lance le navigateur internet.
+- On branche le cable ethernet de la box au PC. En général il vaut mieux utiliser le gros enrouleur rouge. Au délirium la prise ethernet est au coin près du setup melee/rivals ; on fait passer le câble entre les tables/tabourets/autres et le mur tout le long, pour qu'il traine le moins possible.
+- Pour le casque régie il est sans fil, dans sa boite il y a une petite clé USB à brancher sur un port USB du PC ; il faut l'allumer avec le bouton à gauche ; il peut être bon de le mettre à charger (prise USB-C, n'importe quel chargeur de switch fait l'affaire) avant le début du tournoi
 
 ### Logicielle
 Si tout n'est pas déjà installé, voir section "Première installation" plus bas
+
+> ### La table de mixage
+> Avant de commencer, petite explication du fonctionnement de la table de mixage ; la procédure exacte à suivre à l'installation/pendant le stream sont décrit plus bas mais ça peut aider de savoir comment ça marche !
+> - "**Fader**" = bouton coulissant en bas.
+>   - Fader coupé = fader tout en bas 
+>   - Fader à 0 = PAS la même chose, ça veut dire littéralement sur le marquage "0" qui est presque tout en haut
+> - Les faders 2 et 3 contrôlent le son d'un caster chacun
+> - Le fader "5/6" contrôle le son du jeu
+> - Les 2 faders "Sub 1-2" (à laisser toujours au même niveau, donc concrètement c'est commme si y en avait qu'un) contrôlent le son que les casters entendent (aucun effet sur le stream). A ajuster en fonction de ce que les casters demandent
+> - Les 2 faders "Main Mix" (pareil) contrôlent le son qui part vers le PC ; ça on va mettre à 0 (presque en haut donc) et plus y toucher ; si on veut monter le son du stream on le fera dans OBS. Si on veut monter juste le son des casters ou du jeu, on utilise leur fader respectif.  
+> - Le potard (bouton tournant) "Phones / Ctrl Room" au dessus du fader Main Mix contrôle aussi le retour des casters ; celui-ci doit être laissé à tout moment à 1/4, c'est à dire vers la gauche à l'horizontale. NE JAMAIS LE MONTER PLUS HAUT SOUS PEINE D'ATOMISER LES CASTERS
+> ![](./assets-guide/xenyx2.png)
 
 On commence par lancer OBS.
 
@@ -64,16 +93,19 @@ Dans OBS :
     - Pour la Cam joueur, le périphérique sélectionné doit terminer par "c920 ou c922
     - Pour le jeu, ça doit être Game Capture HD60S pour la carte de capture, ou "Elgato Capture x" sur le gros PC (il y en 4 différent pour le Elgato Capture, un pour chaque prise à l'arrière, n'hésitez pas à tous les tester jusqu'à tomber sur la bonne prise)
 - Ensuite IMPORTANT on vérifie le son
-  - Si on est sur la table de mixage, il faut avant toute chose bouger les bons sliders : d'abord, tous les mettre à 0, puis remonter les deux "Main Mix" (à droite) à fond, puis le 2ème et 3ème en partant de la gauche (qui correspondent aux 2 prises sur lesquelles on a branché les casques) presque à fond. C'est ces 2 sliders que vous allez utiliser pour contrôler le son de chaque caster individuellement. Ensuite on vérifie que les boutons "main" à côté des sliders en question sont enfoncés.
-  - Sur le panel du son en bas de l'interface d'OBS, on voit les différentes entrées. Si la barre centrale s'anime c'est que du son est capté. Pour chacune, on clique sur les 3 points en bas, propriétés, et dans le menu déroulant on choisit le bon périphérique (ATTENTION si ça a l'air d'être déjà le bon, ouvrez quand même le menu, des fois les casques aparaissent en double) : 
-    - Pour le jeu, pareil que quand on a paramétré la scène Jeu plus haut
+  - Si on est sur la table de mixage : 
+    - On commence par vérifier les petits boutons noirs à côté des faders : les boutons "Main" et "Sub" du 2 et 3 doivent être enfoncé ; aucun bouton "Solo" ne doit être enfoncé.
+    - On met le fader "Main Mix" à 0 (presque en haut, pas en bas), le potard "Phones / Ctrl Room" à 1/4, et le fader Sub 1-2 en bas.
+    - On met les faders des casters à 0, et le fader du jeu à environ -20 (ligne blanche autour du marquage 20)
+    - On monte progressivement le Sub 1-2 jusqu'à ce que les casters s'entendent bien. Si ils entendent trop ou pas passez le jeu, on ajuste le son du jeu. 
+  - Sur le panel du son en bas de l'interface d'OBS, on voit les différentes entrées. Si la barre centrale s'anime c'est que du son est capté. Pour chacune, on clique sur les 3 points en bas, propriétés, et dans le menu déroulant on choisit le bon périphérique(ATTENTION si ça a l'air d'être déjà le bon, ouvrez quand même le menu, des fois les casques aparaissent en double) : 
     - Pour les casters, "USB Codec" ou un truc comme ça pour la table de mixage, "Scarlett 2i2" pour la carte son
     - Pour la régie, la marque du casque utilisé (donc en général HyperX Cloud avec notre casque habituel)
-  - Une fois que les périphériques sont bien on vérifie qu'OBS entend tout le monde (comme dit plus haut faut que la barre colorée s'anime ; pour le casque régie attention à bien le demute)
-  - Dans les paramèrtres, partie Audio, dans "périphérique de monitoring" on choisit bien le casque de régie (HyperX Cloud)
-  - Si le casque régie n'entend pas le jeu et/ou les casters : clic droit dans la partie vide du panneau de contrôle du son, "Propriétés Audio Avancées", pour les 2 sources "Casque Casters" et "Switch" on change "Monitoring et Sortie" en "Monitoring Désactivé" PUIS on remet à "Monitoring et Sortie". On remet donc comme c'était à la base au final, c'est un bug d'OBS qui nous oblige à faire ça. Fuck OBS. Ca fait 3 ans c'est pas fix
+    - Il y a peut être une entrée son marquée "Jeu" : ignorez là, le son vient en réalité de l'entrée casters maitenant (puisqu'on a branché l'ampli du son du jeu à la table de mixage)
+  - Une fois que les périphériques sont bien choisis,  on vérifie qu'OBS entend tout le monde (comme dit plus haut faut que la barre colorée s'anime ; pour le casque régie attention à bien le demute)
+  - Dans les paramètres, partie Audio, dans "périphérique de monitoring" on choisit bien le casque de régie (HyperX Cloud)
+  - Si le casque régie n'entend pas les casters : clic droit dans la partie vide du panneau de contrôle du son, "Propriétés Audio Avancées", pour la source "Casters" on change "Monitoring et Sortie" en "Monitoring Désactivé" PUIS on remet à "Monitoring et Sortie". On remet donc comme c'était à la base au final, c'est un bug d'OBS qui nous oblige à faire ça. Fuck OBS. Ca fait 4 ans c'est pas fix
   - Si les casters n'entendent pas la régie : clic droit sur l'entrée casque régie, filtres, dans la liste à gauche "Audio monitor", dans le menu déroulant à droite on choisit le périphérique qui correspond aux casques casters (table de mixage ou carte son). C'est d'ailleurs sur ce menu qu'on contrôle le volume sonore de la régie dans les oreilles des casters.
-  - Pareil si les casters n'entendent pas le jeu
 - Dans les boutons en bas a droite, on clique sur "Démarrer le tampon de relecture". Notez juste à côté les boutons "Démarrer l'enregistrement" et "Démarrer le streaming" qu'il faudra évidemment utiliser.
 
 On ouvre ensuite le dossier TLSStream qui se trouve sur le bureau.
@@ -82,12 +114,7 @@ On ouvre le dossier TournamentStreamHelperTLS et on lance TSH (TSH.exe) :
 
 Dans TSH, cliquer sur "Set tournament", et entrer l'URL de l'event (pas le tournoi, l'event spécifiquement), qui sera toujours de forme `https://start.gg/tournament/.../events/...`.
 
-
-Ensuite, si on a la tablette pour le stage strike
-- on va dans l'onglet "Rules"/"Règles", et dans le dropdown tout en haut on choisit TLS. 
-- dans ce même onglet en bas, il doit y avoir un URL : on ouvre firefox sur la tablette et on rentre cet URL. /!\ Le tablette doit être obligatoirement connectée au même réseau local que le PC (donc par exemple au MAD c'est leur box, le mdp est dans le channel production).
-
-En "bonus" qui permet de bien se faciliter la vie : on lance "Vicreo listener" et "Companion" (ne pas hésiter à utiliser la barre de recherche windows), puis sur un téléphone ou une tablette on peut accéder à l'URL "http://\<IP indiquée dans l'URL du stage strike\>:8000/tablet". On a alors accès à un panneau de boutons qui permettent de contrôler toutes les fonctionnalités importantes du stream (le "Panneau Companion"). Plus bas vous trouverez une section qui explique comment gérer le stream juste avec ça, lisez quand même le reste au cas où. 
+En "bonus" qui permet de bien se faciliter la vie (optionel, vous embêtez pas si pas le temps/ça a l'air trop compliqué) : on lance "Vicreo listener" et "Companion" (ne pas hésiter à utiliser la barre de recherche windows), puis sur un téléphone ou une tablette on peut accéder à l'URL "http://\<IP indiquée dans l'URL du stage strike\>:8000/tablet". On a alors accès à un panneau de boutons qui permettent de contrôler toutes les fonctionnalités importantes du stream (le "Panneau Companion"). Plus bas vous trouverez une section qui explique comment gérer le stream juste avec ça, lisez quand même le reste au cas où. 
 
 ## Utilisation (pendant le tournoi) 
 ### Explication générales
@@ -171,6 +198,8 @@ u
 Et surtout n'oubliez pas, je vous donne des indications sur les scènes à mettre, et si vous suivez mes indications normalement vous avez un stream propre, mais au final c'est à vous de juger quelle scène vous voulez mettre (hors des games en tout cas). Dans les scènes Duo/Trio mettez les casters en grand ou les joueurs en grand en fonction de ce qui vous paraît + intéressant / vivant sur le moment, et quand y a rien d'autre que les casters qui bouge on peut mettre la scène avec juste les casters, des fois le VSScreen Cams a la bonne vibe et des fois moins, bref.
 
 ### Utiliser Companion
+PARTIE OUTDATED IGNOREZ LA POUR L'INSTANT
+
 Companion est un logiciel optionnel qui permet d'afficher un tableau de boutons permettant de contrôler la plupart des éléments de la régie.
 
 Après l'avoir lancé, une petite fenêtre rouge apparaît. Dans le menu dropdown marqué "Change network interfaces", sélectionner "0.0.0.0 / All Interfaces".
