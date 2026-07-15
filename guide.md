@@ -43,6 +43,7 @@ En branchant les HDMI vous allez peut être manquer de câbles longs : n'oubliez
   - On branche l'écran Samsung de la régie à un des adaptateurs
   - On branche l'écran Samsung du cast à l'autre adaptateur (un câble HDMI long est peut être nécessaire pour celui là)
   - Si il y a un projecteur (au délirium c'est la grande télé), on le branche en HDMI à la sortie HDMI du PC
+    - Pour la télé du délirium, il faut la mettre sur la bonne input : pour ça on appuie sur le gros bouton blanc en bas à gauche, on rappuie jusqu'à ce que ça arrive sur la bonne input (faut que le bureau du PC s'affiche), et on laisse le menu disparaître tout seul
 - On sort les caméras : elles sont toutes dans la même boite transparente
 - On branche en USB 
   - La Logi Stream Cam via usb c (il y a bien une prise USB C sur le PC, ne pas hésiter à utiliser la rallonge USB C) placée sur l'écran casters
@@ -63,7 +64,7 @@ En branchant les HDMI vous allez peut être manquer de câbles longs : n'oubliez
   - On branche les jack des deux casques au splitter jack qui se trouvait dans une des 2 housses
   - Si on est sur la carte son (le boitier rouge), on branche le splitter dans la prise jack en bas à droite de la carte son. Puis, pour chaque casque, on branche sa prise jack, et l'autre embout (XLR) à la prise correspondante sur l'avant de la carte son.
   - Si on est sur la table de mixage, les grosses prises des casques (XLR) vont dans les prises tout en haut de la table (utiliser la 2ème et la 3ème). Le splitter jack se branche dans la prise jack en bas à droite de la partie supérieure (marquée "Phones"). 
-- Si on est sur la table de mixage, on branche l'ampli du son du jeu à la table de mixage : on utilise le câble avec d'un côté une prise petit jack et de l'autre deux gros jack
+- Si on est sur la table de mixage, on branche l'ampli du son du jeu à la table de mixage : on utilise le câble avec d'un côté une prise petit jack et de l'autre deux gros jack, avec le petit branché à l'ampli (sur une des 4 sorties à l'avant) et les deux gros sur le "Line 5/6" de la table de mixage.  
   ![](./assets-guide/xenyx.png)
 - On allume la table de mixage le cas échéant (switch juste à côté de l'alim, attention à pas allumer l'autre switch)
 - On branche le cable ethernet de la box au PC. En général il vaut mieux utiliser le gros enrouleur rouge. Au délirium la prise ethernet est au coin près du setup melee/rivals ; on fait passer le câble entre les tables/tabourets/autres et le mur tout le long, pour qu'il traine le moins possible.
@@ -71,6 +72,12 @@ En branchant les HDMI vous allez peut être manquer de câbles longs : n'oubliez
 
 ### Logicielle
 Si tout n'est pas déjà installé, voir section "Première installation" plus bas
+
+#### Gestion des écrans
+Normalement il y a 4 écrans branchés : 2 régie, 1 caster, 1 projecteur/télé. On va aller dans le menu d'affichage (clic droit sur le bureau -> Affichage) et
+- Vérifier qu'il y a bien 4 écrans qui s'affichent 
+- Cliquer sur "identifier" pour que chaque écran affiche son numéro
+- Réorganiser les écrans sur le diagramme en haut, un peu comme vous voulez l'idée c'est que le déplacement de la souris entre les écrans soit le + intuitif ; par exemple au délirium le mieux c'est de faire "Télé · Écrans Régie · Écran caster"
 
 > ### La table de mixage
 > Avant de commencer, petite explication du fonctionnement de la table de mixage ; la procédure exacte à suivre à l'installation/pendant le stream sont décrit plus bas mais ça peut aider de savoir comment ça marche !
@@ -106,6 +113,7 @@ Dans OBS :
   - Dans les paramètres, partie Audio, dans "périphérique de monitoring" on choisit bien le casque de régie (HyperX Cloud)
   - Si le casque régie n'entend pas les casters : clic droit dans la partie vide du panneau de contrôle du son, "Propriétés Audio Avancées", pour la source "Casters" on change "Monitoring et Sortie" en "Monitoring Désactivé" PUIS on remet à "Monitoring et Sortie". On remet donc comme c'était à la base au final, c'est un bug d'OBS qui nous oblige à faire ça. Fuck OBS. Ca fait 4 ans c'est pas fix
   - Si les casters n'entendent pas la régie : clic droit sur l'entrée casque régie, filtres, dans la liste à gauche "Audio monitor", dans le menu déroulant à droite on choisit le périphérique qui correspond aux casques casters (table de mixage ou carte son). C'est d'ailleurs sur ce menu qu'on contrôle le volume sonore de la régie dans les oreilles des casters.
+- On met en place l'affichage du stream sur l'écran des casters et la TV : clic droit sur le Programme, "Projecteur fenêtré" ; on fait ça deux fois pour ouvrir 2 fenêtres qui affichent le stream ; on les déplace vers les écrans souhaités et on les met en grand
 - Dans les boutons en bas a droite, on clique sur "Démarrer le tampon de relecture". Notez juste à côté les boutons "Démarrer l'enregistrement" et "Démarrer le streaming" qu'il faudra évidemment utiliser.
 
 On ouvre ensuite le dossier TLSStream qui se trouve sur le bureau.
